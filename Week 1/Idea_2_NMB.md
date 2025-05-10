@@ -43,7 +43,16 @@ A number of empirical challenges may arise in the implementation of this researc
 
 ---
 
+
+
 ## References
 
 - Chodorow-Reich, G. (2019). Geographic Cross-Sectional Fiscal Spending Multipliers: What Have We Learned? *American Economic Journal: Economic Policy*, 11(2), 1–34.
 - Woodford, M. (2011). Simple Analytics of the Government Expenditure Multiplier. *American Economic Journal: Macroeconomics*, 3(1), 1–35.
+
+
+## Juan's thoughts.
+
+My paper with Mathieu that you have to read for next week, and references there, may offer clues on how to approach this. When you compute your heterogeneous G multipliers take into account that the identifying assumptions are more stringent. You need to assume that the instrument is orthogonal to variables that are correlated with the interaction between G and your measure of slack.
+
+Try to write down the estimating equation and the exclusion restriction/ set of identifying assumptions you need.
