@@ -16,6 +16,7 @@ Recent work by *Pinardon-Touati (2023)* demonstrates that local government borro
 
 This research aims to adapt *Pinardon-Touati’s* identification strategy to the Chilean context by leveraging regional variation in government borrowing and firm-bank lending relationships. The objective is to measure whether an increase in government bond holdings by banks is associated with reduced credit to firms and to quantify the resulting impact on firm-level investment and productivity.
 
+
 ---
 
 ## Research Question
@@ -53,3 +54,6 @@ Testing the crowding out hypothesis in Chile faces several challenges. Identific
 - Khwaja, A. I., & Mian, A. (2008). Tracing the Impact of Bank Liquidity Shocks: Evidence from an Emerging Market. *American Economic Review*, 98(4), 1413–1442. https://doi.org/10.1257/aer.98.4.1413
 
 
+## Juan's thoughts:
+
+It would be good to verbalize why if we have Noemie's paper, we need to re-estimate the same object but in Chile. Is the idea that even if the government does not borrow in bank credit, but via bonds, if local banks are differentially exposed to bonds, then this creates differential effects for firms across local areas? Try to crystalize better why this is the right question to ask.
