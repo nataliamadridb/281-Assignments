@@ -37,5 +37,35 @@ This project explores such questions by using natural disasters and infrastructu
 
 The identification comes from comparing affected vs. unaffected areas before and after the disruption. A baseline regression would take the form:
 
-```latex
-y_{i,t+h} = \alpha_i + \gamma_t + \beta_1 Disruption_{i,t} + \beta_2 (Disruption_{i,t} \times CashDependence_i) + \beta_3 X_{i,t} + \varepsilon_{i,t+h}
+```
+y_{i,t+h} = \alpha_i + \gamma_t + \beta_1 Disruption_{i,t} 
+          + \beta_2 (Disruption_{i,t} × CashDependence_i) 
+          + \beta_3 X_{i,t} + \varepsilon_{i,t+h}
+```
+
+
+
+
+
+**Where:**
+
+- *y<sub>i,t+h</sub>*: Local economic outcome in region *i* at horizon *h* (e.g., employment, nightlights, retail activity)  
+- *Disruption<sub>i,t</sub>*: Indicator for exposure to a blackout, ATM failure, or disaster at time *t*  
+- *CashDependence<sub>i</sub>*: Pre-shock measure of local reliance on cash or lack of digital alternatives  
+- *X<sub>i,t</sub>*: Vector of controls (e.g., weather, population density, connectivity)  
+- *α<sub>i</sub>*, *γ<sub>t</sub>*: Region and time fixed effects  
+
+The coefficient of interest is **β₂**, which captures whether more cash-dependent areas suffer larger economic losses from liquidity disruptions.
+
+---
+
+## Limitations and Challenges
+
+Identification depends on plausibly exogenous variation in the timing and location of disruptions. Natural disasters and outages may be correlated with other shocks (e.g., infrastructure failure, security threats). It is also important to distinguish between monetary frictions and direct physical destruction of assets. High-frequency and spatially granular data are essential to isolate the liquidity channel. Access to proprietary payment system or ATM-level data may be a constraint.
+
+---
+
+## References
+
+- Chodorow-Reich, G., Gopinath, G., Mishra, P., & Narayanan, A. (2020). *Cash and the Economy: Evidence from India's Demonetization*. Quarterly Journal of Economics, 135(1), 57–103. https://doi.org/10.1093/qje/qjz027
+
