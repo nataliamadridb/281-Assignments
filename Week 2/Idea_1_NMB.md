@@ -57,23 +57,23 @@ The coefficient of interest is **β₆**, which captures whether poorer regions 
 
 To interpret the interaction coefficient \( \beta_6 \) causally, the following identifying assumptions must hold:
 
-### 1. **Exogeneity of Monetary Policy Shocks (MPₜ)**
+ 1. **Exogeneity of Monetary Policy Shocks (MPₜ)**
 - National monetary policy shocks are assumed to be **exogenous to local economic conditions**.
-- This is justified by using **narrative shocks** from Romer & Romer (2004), which isolate unanticipated monetary policy movements.
+- This is justified by using narrative shocks from Romer & Romer (2004), which isolate unanticipated monetary policy movements.
 
-### 2. **As-Good-As-Random Assignment of Climate Shocks**
+2. **As-Good-As-Random Assignment of Climate Shocks**
 - Conditional on region and time fixed effects, climate disasters are treated as quasi-random events.
 
-### 3. **Exogeneity of the Climate × Monetary Policy Interaction (MPₜ × ClimateShock_{i,t})**
+3. **Exogeneity of the Climate × Monetary Policy Interaction (MPₜ × ClimateShock_{i,t})**
 - The interaction between monetary policy and climate shock timing is assumed to be uncorrelated with systematic policy reactions to disasters.
 
-### 4. **No Confounding in the Triple Interaction (Incomeᵢ × MPₜ × ClimateShock_{i,t})**
+4. **No Confounding in the Triple Interaction (Incomeᵢ × MPₜ × ClimateShock_{i,t})**
 - The coefficient \( \beta_6 \) is identified if **income-related heterogeneity in response is not driven by unobserved factors** (e.g., infrastructure gaps, access to federal aid).
 
-### 5. **No Spillovers or SUTVA Violations**
+5. **No Spillovers or SUTVA Violations**
 - The Stable Unit Treatment Value Assumption (SUTVA) requires that regions are only affected by their own shocks, not those of neighbors.
 
-### 6. **No Simultaneity Bias**
+6. **No Simultaneity Bias**
 - Outcomes such as employment and inflation must not contemporaneously affect either:
   - Monetary policy decisions (justified by using narrative shocks), or
   - Disaster declarations (which are generally exogenous and pre-determined)
