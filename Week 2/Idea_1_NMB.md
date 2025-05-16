@@ -63,7 +63,7 @@ To interpret the interaction coefficient **β₆** causally, the following ident
 
 3. **Exogeneity of the Climate × Monetary Policy Interaction (MPₜ × ClimateShock_{i,t})**: The interaction between monetary policy and climate shock timing is assumed to be uncorrelated with systematic policy reactions to disasters.
 
-4. **No Confounding in the Triple Interaction (Incomeᵢ × MPₜ × ClimateShock_{i,t})**:The coefficient \( \beta_6 \) is identified if income-related heterogeneity in response is not driven by unobserved factors (e.g., infrastructure gaps, access to federal aid).
+4. **No Confounding in the Triple Interaction (Incomeᵢ × MPₜ × ClimateShock_{i,t})**:The coefficient β₆ is identified if income-related heterogeneity in response is not driven by unobserved factors (e.g., infrastructure gaps, access to federal aid).
 
 5. **No Spillovers or SUTVA Violations**: The Stable Unit Treatment Value Assumption (SUTVA) requires that regions are only affected by their own shocks, not those of neighbors.
 
