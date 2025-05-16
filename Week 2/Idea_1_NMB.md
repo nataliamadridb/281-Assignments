@@ -38,11 +38,7 @@ This project contributes to the literature by showing that the interaction betwe
 
 The empirical strategy follows a local projection framework. I estimate the dynamic effects of monetary policy and climate shocks using the following regression:
 
-![Equation](https://render.githubusercontent.com/render/math?math=\begin{aligned}
-y_{i,t%2Bh}=\&\alpha_i%2B\gamma_t%2B\beta_1MP_t%2B\beta_2ClimateShock_{i,t}%2B\beta_3(MP_t\timesClimateShock_{i,t})\\
-\&%2B\beta_4\mathbf{X}_{i,t}%2B\beta_5(Income_i\timesClimateShock_{i,t})\\
-\&%2B\beta_6(Income_i\timesMP_t\timesClimateShock_{i,t})%2B\varepsilon_{i,t%2Bh}
-\end{aligned})
+<pre> `y_{i,t+h} = αᵢ + γₜ + β₁ MPₜ + β₂ ClimateShock_{i,t} + β₃ (MPₜ × ClimateShock_{i,t}) + β₄ X_{i,t} + β₅ (Incomeᵢ × ClimateShock_{i,t}) + β₆ (Incomeᵢ × MPₜ × ClimateShock_{i,t}) + ε_{i,t+h}` </pre>
 
 
 
