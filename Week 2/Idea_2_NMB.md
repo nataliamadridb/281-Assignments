@@ -61,7 +61,7 @@ To causally interpret the impact of blackout-driven cash disruptions on local ec
 
  1. **Exogeneity of Blackout Exposure**: The blackout's timing, location, and intensity must be as-good-as-random with respect to local economic conditions.
 
-2. **No Confounding Demand or Productivity Shocks**: The blackout must primarily act as a liquidity shock, not a general supply or demand shock (e.g., factory shutdowns or lost productivity). And maybe this is unrealistic and I may need an instrument.
+2. **No Confounding Demand or Productivity Shocks**: The blackout must primarily act as a liquidity shock, not a general supply or demand shock (e.g., factory shutdowns or lost productivity).
 
 3. **No Spillovers or SUTVA Violations**: Outcomes in one municipality should not be affected by neighboring municipalities' blackout status (e.g., due to mobility, commuting, or network effects).
 
