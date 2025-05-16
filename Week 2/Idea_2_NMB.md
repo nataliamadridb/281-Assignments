@@ -15,9 +15,9 @@ Do temporary disruptions to the cash economy—such as those caused by large-sca
 
 ## Motivation
 
-Chodorow-Reich et al. (2020) study India's 2016 demonetization and provide compelling evidence that a sudden reduction in cash availability significantly depressed economic activity, particularly in informal and cash-intensive sectors. Their findings raise broader questions about the role of money as a transaction facilitator: What would happen if a similar liquidity shock occurred not due to monetary policy, but because of a physical or technological disruption—such as floods destroying ATMs, wildfires severing access to banks, or prolonged blackouts?
+Chodorow-Reich et al. (2020) study India's 2016 demonetization and provide compelling evidence that a sudden reduction in cash availability significantly depressed economic activity, particularly in informal and cash-intensive sectors. Their findings raise broader questions about the role of money as a transaction facilitator: What would happen if a similar liquidity shock occurred not due to monetary policy, but because of a physical or technological disruption—such as floods destroying ATMs, wildfires severing access to banks, or prolonged blackouts? Would this still be a macro question rather than just an environmental one, since it can affect the real economy?
 
-A recent and compelling case is the April 28, 2025 blackout across Spain and Portugal, which began at 12:33 CEST and affected mainland Portugal and peninsular Spain. Electric power was interrupted for about ten hours in most of the region, causing widespread outages of ATMs, card terminals, and mobile payment infrastructure. This blackout offers a rare opportunity to test whether a temporary breakdown in monetary infrastructure has real, short-term effects on economic activity. 
+A recent and compelling case is the 2025 blackout across Spain and Portugal. Electric power was interrupted for about ten hours in most of the region, causing widespread outages of ATMs, card terminals, and mobile payment infrastructure. This blackout offers a rare opportunity to test whether a temporary breakdown in monetary infrastructure has real, short-term effects on economic activity. 
 
 My idea is to use such blackout events as natural experiments to assess whether access to liquidity is critical for short-run economic resilience. It contributes to the literature by shifting identification away from policy shocks (like demonetization) toward exogenous infrastructure disruptions and by testing for heterogeneous effects by baseline financial access.
 
@@ -26,6 +26,7 @@ My idea is to use such blackout events as natural experiments to assess whether 
 ## Empirical Strategy
 
 ### 1. Data Sources
+
 
 - **Blackout exposure:** Geographic reach and timing of the Spain/France blackout (from power grid data, e.g., ENTSO-E, Red Eléctrica, news archives).  
 - **Local outcomes:** Nightlight intensity, firm-level employment (if available), retail card transaction volumes, mobile payment usage.
