@@ -61,24 +61,6 @@ Identification may exploit:
 
 ---
 
-## Potential Extensions
-
-- Interaction with central bank independence: is the effect larger in low-independence regimes?
-- Regional heterogeneity within monetary unions (e.g., Eurozone or U.S. states).
-- Use of narrative political shocks (e.g., unexpected electoral victories).
-
----
-
-## Related Literature
-
-This project relates to:
-
-- McLeay and Tenreyro (2020) on optimal policy and Phillips curve identification.
-- Coibion and Gorodnichenko (2015) on expectations and inflation disconnects.
-- Political economy models of monetary credibility and regime uncertainty.
-
----
-
 ## References
 
 - McLeay, M., & Tenreyro, S. (2020). *Optimal Inflation and the Identification of the Phillips Curve*. The Review of Economic Studies, 87(1), 110–143.
