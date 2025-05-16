@@ -19,7 +19,7 @@ Chodorow-Reich et al. (2020) study India's 2016 demonetization and provide compe
 
 These events temporarily reduce access to physical cash or digital payments, creating localized liquidity shortages. If economic activity falls in the short run following such events, especially in regions with low digital financial inclusion or high cash-dependence, this would offer additional empirical support for the proposition that money facilitates transactions and economic activity.
 
-This project explores such questions by using natural disasters and infrastructure failures as quasi-experiments to assess whether access to cash and payment systems is critical for short-run economic resilience. It contributes to the literature by proposing a new identification strategy: using plausibly exogenous natural disaster disruptions to local liquidity supply to assess how much “money matters” for real activity in financially vulnerable communities.
+My idea is to explore such questions by using natural disasters and infrastructure failures as quasi-experiments to assess whether access to cash and payment systems is critical for short-run economic resilience. It contributes to the literature by proposing a new identification strategy: using plausibly exogenous natural disaster disruptions to local liquidity supply to assess how much “money matters” for real activity in financially vulnerable communities.
 
 ---
 
@@ -37,13 +37,11 @@ This project explores such questions by using natural disasters and infrastructu
 
 The identification comes from comparing affected vs. unaffected areas before and after the disruption. A baseline regression would take the form:
 
-```
-y_{i,t+h} = \alpha_i + \gamma_t + \beta_1 Disruption_{i,t} 
-          + \beta_2 (Disruption_{i,t} × CashDependence_i) 
-          + \beta_3 X_{i,t} + \varepsilon_{i,t+h}
-```
-
-
+<pre>
+y_{i,t+h} = αᵢ + γₜ + β₁ MPₜ + β₂ ClimateShock_{i,t} + β₃ (MPₜ × ClimateShock_{i,t}) 
+          + β₄ X_{i,t} + β₅ (Incomeᵢ × ClimateShock_{i,t}) 
+          + β₆ (Incomeᵢ × MPₜ × ClimateShock_{i,t}) + ε_{i,t+h}
+</pre>
 
 
 
