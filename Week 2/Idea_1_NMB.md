@@ -53,7 +53,7 @@ The coefficient of interest is **β₆**, which captures whether poorer regions 
 
 ## Limitations and Challenges
 
-- Climate shocks are not randomly assigned. Even with time and region fixed effects, identifying interactions with monetary shocks depends on the quasi-random timing of monetary policy relative to climate events.
+- Climate shocks are not randomly assigned (although they are very difficult to predict!). Even with time and region fixed effects, identifying interactions with monetary shocks depends on the quasi-random timing of monetary policy relative to climate events.
 - Poorer regions may differ in unobserved resilience or access to federal aid.
 - I will explore robustness using instrumental variables (e.g., Bartik instruments for industry shocks) and possibly use matching methods.
 - Measurement challenges include accurately linking income heterogeneity and disaster exposure to outcomes over time, requiring spatially granular data integration.
