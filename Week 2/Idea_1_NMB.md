@@ -15,9 +15,7 @@ Do climate shocks (e.g., wildfires, hurricanes) amplify the heterogeneous effect
 
 ## Motivation
 
-Recent macroeconomic research (e.g., Herreno & Pedemonte, 2025) shows that regions with lower per capita income experience larger responses to monetary policy shocks due to higher marginal propensities to consume (MPCs). Simultaneously, climate shocks like wildfires, hurricanes, or floods disproportionately affect economically vulnerable communities.
-
-But what happens when these two shocks coincide? Could monetary tightening exacerbate the contractionary effect of a climate shock in poor areas with less insurance, higher MPCs, and greater hand-to-mouth behavior?
+Recent macroeconomic research (e.g., Herreno & Pedemonte, 2025) shows that regions with lower per capita income experience larger responses to monetary policy shocks due to higher marginal propensities to consume (MPCs). Simultaneously, climate shocks like wildfires, hurricanes, or floods disproportionately affect economically vulnerable communities.But what happens when these two shocks coincide? Could monetary tightening exacerbate the contractionary effect of a climate shock in poor areas with less insurance, higher MPCs, and greater hand-to-mouth behavior?
 
 This project contributes to the literature by showing that the interaction between climate shocks and monetary policy has unequal effects across space, with poorer U.S. regions experiencing significantly stronger adverse impacts on employment and inflation when contractionary monetary policy coincides with climate disasters.
 
@@ -40,9 +38,6 @@ The empirical strategy follows a local projection framework. I estimate the dyna
 
 <pre> y_{i,t+h} = αᵢ + γₜ + β₁ MPₜ + β₂ ClimateShock_{i,t} + β₃ (MPₜ × ClimateShock_{i,t}) + β₄ X_{i,t} + β₅ (Incomeᵢ × ClimateShock_{i,t}) + β₆ (Incomeᵢ × MPₜ × ClimateShock_{i,t}) + ε_{i,t+h} </pre>
 
-
-
-
 **Where:**
 
 - `y_{i,t+h}` = regional outcome (e.g., employment, inflation, consumption) at horizon `h`
@@ -52,9 +47,7 @@ The empirical strategy follows a local projection framework. I estimate the dyna
 - `X_{i,t}` = vector of controls (e.g., unemployment, population density, insurance coverage)
 - `αᵢ`, `γₜ` = region and time fixed effects
 
-The coefficient of interest is **β₆**, which captures whether poorer regions experience stronger negative effects when monetary tightening coincides with a climate shock.
-
-The analysis may be supplemented with an event-study design, comparing outcomes before and after major disasters (e.g., Hurricane Katrina, Camp Fire) and monetary policy announcements.
+The coefficient of interest is **β₆**, which captures whether poorer regions experience stronger negative effects when monetary tightening coincides with a climate shock. I think this analysis may be supplemented with an event-study design, comparing outcomes before and after major disasters (e.g., Hurricane Katrina, Camp Fire) and monetary policy announcements.
 
 ---
 
