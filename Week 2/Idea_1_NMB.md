@@ -55,7 +55,7 @@ The coefficient of interest is **β₆**, which captures whether poorer regions 
 
 ## Identifying Assumptions
 
-To interpret the interaction coefficient \( \beta_6 \) causally, the following identifying assumptions must hold:
+To interpret the interaction coefficient **β₆** causally, the following identifying assumptions must hold:
 
  1. **Exogeneity of Monetary Policy Shocks (MPₜ)**
 - National monetary policy shocks are assumed to be **exogenous to local economic conditions**.
