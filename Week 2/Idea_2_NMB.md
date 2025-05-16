@@ -1,4 +1,4 @@
-# Political Determinants of Inflation Expectations  
+
 ## Do Governments Shape Beliefs about Long-run Inflation?
 
 **Natalia Madrid**  
