@@ -10,9 +10,7 @@ May 16, 2025
 
 ## Motivation
 
-Recent work by McLeay and Tenreyro (2020) argues that under optimal monetary policy, inflation becomes less sensitive to economic slack and more closely reflects expectations about long-run inflation. In such a framework, the anchoring of inflation expectations plays a central role in shaping inflation dynamics. However, little is known about what determines the stability of these expectations.
-
-This project investigates whether the political orientation of the current government—e.g., left vs. right, populist vs. technocratic—affects the degree to which agents revise their beliefs about future inflation. If inflation expectations respond to political signals, this introduces a political economy channel into the Phillips curve and optimal policy framework.
+Recent work by McLeay and Tenreyro (2020) argues that under optimal monetary policy, inflation becomes less sensitive to economic slack and more closely reflects expectations about long-run inflation. In such a framework, the anchoring of inflation expectations plays a central role in shaping inflation dynamics. However, little is known about what determines the stability of these expectations. Should we care about how the political orientation of the current government—e.g., left vs. right, populist vs. technocratic—affects the degree to which agents revise their beliefs about future inflation? If inflation expectations respond to political signals, this introduces a political economy channel into the Phillips curve and optimal policy framework.
 
 ---
 
