@@ -44,14 +44,14 @@ y_{i,t+h} = αᵢ + γₜ + β₁ MPₜ + β₂ ClimateShock_{i,t} + β₃ (MP�
 </pre>
 
 
-
 **Where:**
 
 - *y<sub>i,t+h</sub>*: Local economic outcome in region *i* at horizon *h* (e.g., employment, nightlights, retail activity)  
-- *Disruption<sub>i,t</sub>*: Indicator for exposure to a blackout, ATM failure, or disaster at time *t*  
-- *CashDependence<sub>i</sub>*: Pre-shock measure of local reliance on cash or lack of digital alternatives  
-- *X<sub>i,t</sub>*: Vector of controls (e.g., weather, population density, connectivity)  
+- *Disruption<sub>i,t</sub>*: Indicator for exposure to a blackout, ATM failure, or natural disaster (e.g., hurricane, flood, wildfire) in region *i* at time *t*  
+- *CashDependence<sub>i</sub>*: Pre-shock measure of local reliance on physical cash or lack of digital financial access (e.g., low mobile money or ATM coverage)  
+- *X<sub>i,t</sub>*: Vector of controls (e.g., weather, population density, digital infrastructure, insurance penetration)  
 - *α<sub>i</sub>*, *γ<sub>t</sub>*: Region and time fixed effects  
+
 
 The coefficient of interest is **β₂**, which captures whether more cash-dependent areas suffer larger economic losses from liquidity disruptions.
 
