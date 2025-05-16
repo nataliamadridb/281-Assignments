@@ -46,7 +46,7 @@ y_{i,t+h} = αᵢ + γₜ + β₁ MPₜ + β₂ Blackout_{i,t} + β₃ (MPₜ ×
 **Where:**
 
 - *y<sub>i,t+h</sub>*: Local economic outcome in region *i* at horizon *h* (e.g., employment, nightlights, card transactions)  
-- *Blackout<sub>i,t</sub>*: Indicator for exposure to the October 2021 blackout in region *i* at time *t*  
+- *Blackout<sub>i,t</sub>*: Indicator for exposure to the blackout in region *i* at time *t*  
 - *CashDependence<sub>i</sub>*: Pre-shock measure of reliance on physical cash or lack of digital financial access  
 - *MP<sub>t</sub>*: National monetary policy shocks used for heterogeneity tests (e.g., ECB announcements)  
 - *X<sub>i,t</sub>*: Controls (e.g., weather, income, population density)  
@@ -58,7 +58,7 @@ The coefficient **β₂** captures the average effect of the blackout on local e
 
 ## Limitations and Challenges
 
-Identification relies on the assumption that blackout timing and intensity are exogenous to local economic trends. However, high-frequency data on electricity restoration and transaction volume may be difficult to obtain. It is also important to separate liquidity effects from productivity or demand-side shocks caused by the blackout itself (e.g., machine downtime, supply disruptions). Regions with high digital adoption may also respond differently, complicating the interpretation of results.
+Identification relies on the assumption that blackout timing and intensity are exogenous to local economic trends. However, high-frequency data on electricity restoration and transaction volume may be difficult to obtain. It is also important to separate liquidity effects from productivity or demand-side shocks caused by the blackout itself (e.g., machine downtime, supply disruptions). Regions with high digital adoption may also respond differently, and I think these countries are very digitalized. 
 
 ---
 
