@@ -44,6 +44,7 @@ y_{i,t+h} = \alpha_i + \gamma_t + \beta_1 \text{MP}_t + \beta_2 \text{ClimateSho
 \beta_5 (\text{Income}_i \times \text{ClimateShock}_{i,t}) + 
 \beta_6 (\text{Income}_i \times \text{MP}_t \times \text{ClimateShock}_{i,t}) + \varepsilon_{i,t+h}
 
+math```
 
 **Where:**
 
