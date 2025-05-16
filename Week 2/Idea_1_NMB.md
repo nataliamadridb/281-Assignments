@@ -25,6 +25,8 @@ This project contributes to the literature by showing that the interaction betwe
 
 ### 1. Data Sources
 
+I will check the feseability of getting the following data:
+
 - **Climate shock exposure:** NOAA Storm Events Database, FEMA disaster declarations, wildfire footprints  
 - **Monetary policy shocks:** Romer & Romer (2004) narrative shocks  
 - **Local outcomes:** QCEW private employment, BLS CPI (metro-level inflation), ACS income and consumption data  
