@@ -44,3 +44,34 @@ y_{i,t+h} = \alpha_i + \gamma_t + \beta_1 \text{MP}_t + \beta_2 \text{ClimateSho
 \beta_5 (\text{Income}_i \times \text{ClimateShock}_{i,t}) + 
 \beta_6 (\text{Income}_i \times \text{MP}_t \times \text{ClimateShock}_{i,t}) + \varepsilon_{i,t+h}
 
+
+**Where:**
+
+- `y_{i,t+h}` = regional outcome (e.g., employment, inflation, consumption) at horizon `h`
+- `MPₜ` = national monetary policy shock at time `t`
+- `ClimateShock_{i,t}` = local exposure to a climate disaster (binary or continuous)
+- `Incomeᵢ` = per capita income or poverty rate in region `i`
+- `X_{i,t}` = vector of controls (e.g., unemployment, population density, insurance coverage)
+- `αᵢ`, `γₜ` = region and time fixed effects
+
+The coefficient of interest is **β₆**, which captures whether poorer regions experience stronger negative effects when monetary tightening coincides with a climate shock.
+
+The analysis may be supplemented with an event-study design, comparing outcomes before and after major disasters (e.g., Hurricane Katrina, Camp Fire) and monetary policy announcements.
+
+---
+
+## Limitations and Challenges
+
+- Climate shocks are not randomly assigned. Even with time and region fixed effects, identifying interactions with monetary shocks depends on the quasi-random timing of monetary policy relative to climate events.
+- Poorer regions may differ in unobserved resilience or access to federal aid.
+- I will explore robustness using instrumental variables (e.g., Bartik instruments for industry shocks) and possibly use matching methods.
+- Measurement challenges include accurately linking income heterogeneity and disaster exposure to outcomes over time, requiring spatially granular data integration.
+
+---
+
+## References
+
+- Herreno, J., & Pedemonte, M. (2025). *The Geographic Effects of Monetary Policy Shocks* (Working Paper).
+- Romer, C. D., & Romer, D. H. (2004). *A New Measure of Monetary Shocks: Derivation and Implications*. American Economic Review, 94(4), 1055–1084.
+
+
