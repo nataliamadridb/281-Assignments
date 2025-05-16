@@ -36,7 +36,7 @@ I will check the feseability of getting the following data:
 
 ### 2. Empirical Specification
 
- I plan to estimate the dynamic effects of monetary policy and climate shocks using the following regression:
+ I plan to estimate the dynamic effects of monetary policy and climate shocks using the following local projection regression:
 
 <pre> y_{i,t+h} = αᵢ + γₜ + β₁ MPₜ + β₂ ClimateShock_{i,t} + β₃ (MPₜ × ClimateShock_{i,t}) + β₄ X_{i,t} + β₅ (Incomeᵢ × ClimateShock_{i,t}) + β₆ (Incomeᵢ × MPₜ × ClimateShock_{i,t}) + ε_{i,t+h} </pre>
 
