@@ -49,7 +49,7 @@ I will check the feseability of getting the following data:
 - `X_{i,t}` = vector of controls (e.g., unemployment, population density, insurance coverage)
 - `αᵢ`, `γₜ` = region and time fixed effects
 
-The coefficient of interest is **β₆**, which captures whether poorer regions experience stronger negative effects when monetary tightening coincides with a climate shock. I think this analysis may be supplemented with an event-study design, comparing outcomes before and after major disasters (e.g., Hurricane Katrina, Camp Fire) and monetary policy announcements.
+The coefficient of interest is **β₆**, which captures whether poorer regions experience stronger negative effects when monetary tightening coincides with a climate shock. I think this analysis may be supplemented with an event-study design, comparing outcomes before and after major disasters (e.g., Hurricane Katrina, Camp Fire) and monetary policy announcements. I would need to check how likely is that monetary policy and a natural disaster happen in the same period.
 
 ---
 
