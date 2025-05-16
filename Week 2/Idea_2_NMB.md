@@ -29,7 +29,7 @@ My idea is to use such blackout events as natural experiments to assess whether 
 
 - **Blackout exposure:** Geographic reach and timing of the Spain/France blackout (from power grid data, e.g., ENTSO-E, Red Eléctrica, news archives).  
 - **Local outcomes:** Nightlight intensity, firm-level employment (if available), retail card transaction volumes, mobile payment usage.
-- **Exposure measures:** ATM density, mobile banking penetration, share of cash payments in baseline household survey data (e.g., ECB Household Finance and Consumption Survey), and pre-blackout financial inclusion rates.  
+- **Exposure measures:** ATM density, mobile banking penetration, share of cash payments in baseline household survey data. 
 
 ---
 
