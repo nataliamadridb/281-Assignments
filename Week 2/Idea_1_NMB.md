@@ -53,7 +53,7 @@ The coefficient of interest is **β₆**, which captures whether poorer regions 
 
 ---
 
-## Identifying Assumptions
+### 3. Identifying Assumptions
 
 To interpret the interaction coefficient **β₆** causally, the following identifying assumptions must hold:
 
