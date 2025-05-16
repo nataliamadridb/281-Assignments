@@ -42,7 +42,7 @@ I will check the feseability of getting the following data:
 
 **Where:**
 
-- `y_{i,t+h}` = regional outcome (e.g., employment, inflation, consumption) at horizon `h`
+- `y_{i,t+h}` = regional outcome (it can be employment, consumption) at horizon `h`
 - `MPₜ` = national monetary policy shock at time `t`
 - `ClimateShock_{i,t}` = local exposure to a climate disaster (binary or continuous)
 - `Incomeᵢ` = per capita income or poverty rate in region `i`
