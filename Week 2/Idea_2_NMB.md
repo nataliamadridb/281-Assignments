@@ -64,6 +64,11 @@ Identification may exploit:
 - McLeay, M., & Tenreyro, S. (2020). *Optimal Inflation and the Identification of the Phillips Curve*. The Review of Economic Studies, 87(1), 110–143.
 - Coibion, O., & Gorodnichenko, Y. (2015). *Is the Phillips Curve Alive and Well After All? Inflation Expectations and the Missing Disinflation*. American Economic Journal: Macroeconomics, 7(1), 197–232.
 
+## Juan's thoughts.
+
+Hi Natalia,
+
+This is interesting and there is some work about this. Like splitting the sample of the Michigan survey by political affiliation and the like. I recommend that you do a short literature review just to get a sense of what is out there, and refine your contribution based on what you find.
 
 
 
