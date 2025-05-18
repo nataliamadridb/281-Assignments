@@ -84,4 +84,9 @@ To interpret the interaction coefficient **β₆** causally, the following ident
 - Herreno, J., & Pedemonte, M. (2025). *The Geographic Effects of Monetary Policy Shocks* (Working Paper).
 - Romer, C. D., & Romer, D. H. (2004). *A New Measure of Monetary Shocks: Derivation and Implications*. American Economic Review, 94(4), 1055–1084.
 
+## Juan's comments
+
+Hi Natalia, is not very clear to me what you would be learning from this exercise other than the literal policy question. I'm sure you have something to say about this, but it would be good to elaborate on what are the new economics that this estimation would bring to the table. Think about the null hypothesis you want to reject. What is that exactly?
+
+
 
