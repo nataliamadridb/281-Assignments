@@ -42,7 +42,7 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
 - $\Delta \log K_{i,t+1}$: Log change in firm $i$'s capital stock (e.g., investment growth)  
 - $\alpha_i$: Firm fixed effects  
 - $\gamma_t$: Time fixed effects  
-- $\text{ClimateRisk}_i$: Firm-specific measure of physical climate risk (e.g., flood zone exposure, ESG climate risk score)  
+- $\text{ClimateRisk}_i$: Firm-specific measure of physical climate risk 
 - $\text{MPShock}_t$: Monetary policy shock at time $t$ (high-frequency identified)  
 - $\mathbf{X}_{it}$: Vector of time-varying firm-level controls (e.g., size, leverage, liquidity)  
 - $\varepsilon_{it}$: Error term
@@ -70,30 +70,13 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
    The climate risk variable should not simply capture other sources of investment sluggishness (e.g., firm size or capital intensity). The inclusion of rich firm-level controls mitigates this risk.
 
 4. **Parallel Trends**  
-   In the absence of monetary policy shocks, firms with high and low climate risk would have followed similar investment trends — this is addressed by firm and time fixed effects, and can be validated with event-study specifications or placebo tests.
+   In the absence of monetary policy shocks, firms with high and low climate risk would have followed similar investment trends — this is addressed by firm and time fixed effects.
 
 ---
 
 ### Interpretation
-
-
 Under these assumptions, the interaction coefficient β₁ identifies the differential investment response to monetary policy for firms with higher physical climate risk exposure. A negative and significant coefficient would suggest that climate risk impairs the monetary transmission channel**, possibly by tightening financing constraints or lowering expected returns on investment.
 
-
-
-## Identifying Assumptions
-
-### 1. Exogeneity of Monetary Policy Shocks  
-Monetary policy shocks must be unanticipated and uncorrelated with firm-level investment shocks. For example, if the Fed lowers rates in response to worsening conditions in climate-sensitive regions, and those regions are also reducing investment, the estimated interaction may be biased.
-
-### 2. No Concurrent Local Disasters  
-There should not be local shocks (e.g., hurricanes, wildfires) occurring in the same quarter as a monetary policy shock, unless they are explicitly controlled for. Otherwise, the drop in investment may be due to the disaster, not the firm’s responsiveness to monetary policy.
-
-### 3. Climate Risk Should Not Proxy for Other Frictions  
-Climate risk should not merely reflect other characteristics (e.g., firm size or liquidity) that independently affect investment responses. These must be controlled for using firm-level variables and fixed effects.
-
-### Summary  
-The key assumption is that physical climate risk modifies the transmission of monetary policy, and does not reflect spurious variation due to timing, omitted shocks, or firm fundamentals.
 
 ## References  
 - Ottonello, P. & Winberry, T. (2020). *Financial Heterogeneity and the Investment Channel of Monetary Policy*. Econometrica  
