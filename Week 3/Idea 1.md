@@ -41,13 +41,13 @@ Ottonello and Winberry (2020) provide an influential framework showing that firm
 
 ## 1. Relax the Dividend Constraint
 
-Allow firms to issue equity \( s_{jt} \), changing the constraint to:
+Allow firms to issue equity $ s_{jt} $, changing the constraint to:
 
-\[
+$$
 d_{jt} = n_{jt} - q_t k' + Q_t b' + s_{jt} \geq 0
-\]
+$$
 
-where \( s_{jt} \) is subject to issuance costs (e.g., dilution or fixed cost).
+where $ s_{jt} $ is subject to issuance costs (e.g., dilution or fixed cost).
 
 ## 2. Add Bond Market Access
 
