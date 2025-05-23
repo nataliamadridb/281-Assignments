@@ -100,3 +100,4 @@ The key assumption is that physical climate risk modifies the transmission of mo
 - Ottonello, P. & Winberry, T. (2020). *Financial Heterogeneity and the Investment Channel of Monetary Policy*. Econometrica  
 - Berkman, H., Jona, J., & Soderstrom, N. (2024). *Firm-Specific Climate Risk Exposure and Valuation*. Accounting, Organizations and Society.
 - Cortés, K., & Strahan, P. (2017). *Tracing Out Capital Flows: How Financially Integrated Banks Respond to Natural Disasters*. Journal of Financial Economics  
+- Javadi, S., & Masum, A.-A. (2021). *The Impact of Climate Change on the Cost of Bank Loans*. Journal of Corporate Finance, 69, 102019. 
