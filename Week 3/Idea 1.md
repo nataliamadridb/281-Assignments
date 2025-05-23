@@ -41,7 +41,7 @@ Ottonello and Winberry (2020) provide an influential framework showing that firm
 
 ## 1. Relax the Dividend Constraint
 
-Allow firms to issue equity $ s_{jt} $, changing the constraint to:
+Allow firms to issue equity $s_{jt}$, changing the constraint to:
 
 $$
 d_{jt} = n_{jt} - q_t k' + Q_t b' + s_{jt} \geq 0
