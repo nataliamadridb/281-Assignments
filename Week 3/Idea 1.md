@@ -25,7 +25,6 @@ Ottonello and Winberry (2020) provide an influential framework showing that firm
 
 - **Equity issuance during crises**:  
   DeAngelo et al. (2010) show that firms time seasoned equity offerings based on lifecycle and market conditions.  
-  McLean (2011) finds that firms issue equity to build precautionary savings during periods of financial constraint.
 
 - **Bond issuance during crises**:  
   Becker & Benmelech (2021) show that the U.S. corporate bond market remained resilient during COVID-19, with firms quickly issuing bonds while syndicated loan activity collapsed.  
@@ -83,9 +82,6 @@ Firms choose among internal funds, debt, bonds, or equity—balancing cost and a
 
 - DeAngelo, H., DeAngelo, L., & Stulz, R. M. (2010). *Seasoned equity offerings, market timing, and the corporate lifecycle*. Journal of Financial Economics, 95(3), 275–295.  
   [https://doi.org/10.1016/j.jfineco.2009.11.002](https://doi.org/10.1016/j.jfineco.2009.11.002)
-
-- McLean, R. D. (2011). *Share issuance and cash savings*. Journal of Financial Economics, 99(3), 693–715.  
-  [https://doi.org/10.1016/j.jfineco.2010.10.004](https://doi.org/10.1016/j.jfineco.2010.10.004)
 
 - Becker, B., & Benmelech, E. (2021). *The resilience of the U.S. corporate bond market during financial crises*. NBER Working Paper No. 28868.  
   [https://www.nber.org/papers/w28868](https://www.nber.org/papers/w28868)
