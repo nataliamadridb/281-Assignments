@@ -9,7 +9,9 @@ namadrid@ucsd.edu
 ## Motivation
 Firms around the world are increasingly exposed to physical climate risks — including floods, hurricanes, wildfires, and rising heat — that can damage physical assets and disrupt operations. While the macroeconomic consequences of climate change have received growing attention, we still know relatively little about how firm-level climate risk exposure affects investment behavior, particularly when interacting with macroeconomic policy shocks.
 
-Understanding this link is essential for two reasons. First, investment is a key margin through which firms adapt to or insure against future shocks. Second, climate risk may amplify financing frictions: asset destruction reduces collateral value, insurance premiums rise, and uncertainty about future environmental damage can raise risk premia or delay investment decisions. If these frictions interact with monetary policy, they may distort the aggregate transmission of policy across firms and regions. Recent research shows that firms with greater physical climate exposure face lower valuations (Berkman, Jona, and Soderstrom, 2024), greater credit risk (Kruttli et al., 2021), and tighter financing conditions following natural disasters (Cortés and Strahan, 2017). However, little is known about whether climate-exposed firms respond differently to monetary policy shocks, and whether climate risk acts as a friction that dampens investment precisely when rates fall.
+Understanding this link is essential for two reasons. First, investment is a key margin through which firms adapt to or insure against future shocks. Second, climate risk may amplify financing frictions: asset destruction reduces collateral value, insurance premiums rise, and uncertainty about future environmental damage can raise risk premia or delay investment decisions. If these frictions interact with monetary policy, they may distort the aggregate transmission of policy across firms and regions. 
+
+Recent research shows that firms with greater physical climate exposure face lower valuations (Berkman, Jona, and Soderstrom, 2024), pay significantly higher spreads on bank loans as lenders increasingly price in climate risk (Javadi and Masum, 2021), and tighter financing conditions following natural disasters (Cortés and Strahan, 2017). However, little is known about whether climate-exposed firms respond differently to monetary policy shocks, and whether climate risk acts as a friction that dampens investment precisely when rates fall.
 
 This project aims to answer that question using the empirical framework of Ottonello and Winberry (2020), who show that low-default-risk firms drive the investment response to monetary easing. I adopt their identification strategy — based on firm-level investment and high-frequency monetary shocks — but replace their default risk measures with firm-level proxies for physical climate risk exposure. The goal is to estimate how heterogeneous climate vulnerability reshapes the investment response to monetary policy, and whether firms in high-risk environments are less able (or willing) to scale up investment when borrowing conditions improve.
 
@@ -25,13 +27,13 @@ Firms that are more exposed to physical climate risk will respond less to expans
 - **Monetary policy shocks**: High-frequency monetary shocks. 
 - **Physical climate risk**:  
   - Location-based exposure from FEMA, NOAA, EM-DAT  
-  - Firm-level risk scores (e.g., MSCI ESG, Four Twenty Seven, Sustainalytics)  
+  - Firm-level risk scores (e.g., MSCI ESG)  
   - Industry-level vulnerability to extreme weather  
 
 
 ## Identification Strategy
 
-I will follow the identification strategy from Ottonello & Winberry (2020) to study whether firms with higher exposure to physical climate risk respond differently to monetary policy shocks in terms of their investment behavior
+I will follow the identification strategy from Ottonello & Winberry (2020) to study whether firms with higher exposure to physical climate risk respond differently to monetary policy shocks in terms of their investment behavior.
 
 <pre> ΔlogK_{i,t+1} = αᵢ + γₜ + β₁(MPShockₜ × (ClimateRiskᵢ - 𝔼[ClimateRiskᵢ])) + β₂ X_{i,t} + ε_{i,t+1} </pre>
 
