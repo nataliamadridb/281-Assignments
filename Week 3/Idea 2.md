@@ -1,4 +1,4 @@
-# Firm Investment Responses to Monetary Shocks under Climate Risk
+## Firm Investment Responses to Monetary Shocks under Climate Risk
 **Natalia Madrid**  
 Ph.D. student in Economics  
 namadrid@ucsd.edu  
