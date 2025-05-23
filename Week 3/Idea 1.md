@@ -28,7 +28,6 @@ Ottonello and Winberry (2020) provide an influential framework showing that firm
 
 - **Bond issuance during crises**:  
   Becker & Benmelech (2021) show that the U.S. corporate bond market remained resilient during COVID-19, with firms quickly issuing bonds while syndicated loan activity collapsed.  
-  Kargar et al. (2020) document severe liquidity stress in the corporate bond market in March 2020 and show that Federal Reserve interventions restored trading conditions and encouraged issuance.
 
 - **Heterogeneous firm response to monetary policy**:  
   Ottonello & Winberry (2020) show that firms with strong balance sheets drive the investment response to monetary easing, as default risk makes borrowing more expensive. Their model does not allow for equity issuance, potentially overstating financial constraints in downturns.
@@ -85,9 +84,6 @@ Firms choose among internal funds, debt, bonds, or equity—balancing cost and a
 
 - Becker, B., & Benmelech, E. (2021). *The resilience of the U.S. corporate bond market during financial crises*. NBER Working Paper No. 28868.  
   [https://www.nber.org/papers/w28868](https://www.nber.org/papers/w28868)
-
-- Kargar, M., Lester, B., Lindsay, D., Liu, S., Weill, P.-O., & Zúñiga, D. (2020). *Corporate bond liquidity during the COVID-19 crisis*. NBER Working Paper No. 27355.  
-  [https://www.nber.org/papers/w27355](https://www.nber.org/papers/w27355)
 
 - Ottonello, P., & Winberry, T. (2020). *Financial heterogeneity and the investment channel of monetary policy*. Econometrica, 88(6), 2473–2502.  
   
