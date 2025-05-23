@@ -80,8 +80,6 @@ Under these assumptions, the coefficient **β₁** captures the differential eff
 
 - If **β₁ > 0**: These firms respond more strongly (i.e., increase investment more) to the shock than less-exposed firms.
 
-- This formulation removes cross-sectional level differences in climate risk, focusing on heterogeneous treatment effects of monetary policy based on relative exposure.
-
 
 ## References  
 - Ottonello, P. & Winberry, T. (2020). *Financial Heterogeneity and the Investment Channel of Monetary Policy*. Econometrica  
