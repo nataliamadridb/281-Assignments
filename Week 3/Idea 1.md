@@ -35,7 +35,7 @@ Ottonello and Winberry (2020) provide an influential framework showing that firm
 
 ---
 
-##  Model Extension (Theoretical)
+##  Model Extension 
 
 ## 1. Relax the Dividend Constraint
 
@@ -58,7 +58,7 @@ Firms choose among internal funds, debt, bonds, or equity—balancing cost and a
 
 ---
 
-##  Empirical Strategy =
+##  Empirical Strategy 
 
 - I will use Compustat for firm-level issuance data.
 - I will examine issuance responses to monetary shocks based on:
