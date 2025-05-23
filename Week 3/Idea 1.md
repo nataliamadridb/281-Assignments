@@ -37,7 +37,7 @@ Ottonello and Winberry (2020) provide an influential framework showing that firm
 
 ##  Model Extension 
 
-## 1. Relax the Dividend Constraint
+### 1. Relax the Dividend Constraint
 
 Allow firms to issue equity $s_{jt}$, changing the constraint to:
 
@@ -47,7 +47,7 @@ $$
 
 where $s_{jt}$ is subject to issuance costs (as we saw in class).
 
-## 2. Add Bond Market Access
+### 2. Add Bond Market Access
 
 Include a tradable debt option with:
 - Firm-specific risk premiums
