@@ -90,6 +90,6 @@ Firms choose among internal funds, debt, bonds, or equity—balancing cost and a
   [https://www.nber.org/papers/w27355](https://www.nber.org/papers/w27355)
 
 - Ottonello, P., & Winberry, T. (2020). *Financial heterogeneity and the investment channel of monetary policy*. Econometrica, 88(6), 2473–2502.  
-  [https://doi.org/10.3982/ECTA14690](https://doi.org/10.3982/ECTA14690)
+  
 
 
