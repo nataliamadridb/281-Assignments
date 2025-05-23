@@ -37,7 +37,7 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
 
 <pre> ΔlogK_{i,t+1} = αᵢ + γₜ + β₁(MPShockₜ × (ClimateRiskᵢ - 𝔼[ClimateRiskᵢ])) + β₂ X_{i,t} + ε_{i,t+1} </pre>
 
-## Variable Definitions:
+### Variable Definitions:
 
 - $\Delta \log K_{i,t+1}$: Log change in firm $i$'s capital stock (e.g., investment growth)  
 - $\alpha_i$: Firm fixed effects  
