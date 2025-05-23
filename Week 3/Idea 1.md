@@ -62,18 +62,18 @@ Firms choose among internal funds, debt, bonds, or equity—balancing cost and a
 
 - I will use Compustat for firm-level issuance data.
 - I will examine issuance responses to monetary shocks based on:
-  - **Default proximity** (Altman Z-score, credit ratings)
-  - **Collateral and asset tangibility**
-  - **Exposure to high-frequency monetary policy shocks** (e.g., Gürkaynak et al., 2005)
+  - Default proximity (Altman Z-score, credit ratings)
+  - Collateral and asset tangibility
+  - Exposure to high-frequency monetary policy shocks 
 
 ---
 
 ## Next Steps
 
 1. Extend the Ottonello-Winberry model with equity and bond financing.
-2. Solve numerically for firm policies under monetary shocks.
+2. Solve numerically for firm investment under monetary shocks.
 3. Compare against the original model.
-4. (Optional) Validate with firm-level issuance data.
+4. Validate with firm-level issuance data.
 
 ---
 
