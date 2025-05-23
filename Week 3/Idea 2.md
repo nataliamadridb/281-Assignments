@@ -74,9 +74,9 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
 
 ---
 ### Interpretation
-Under these assumptions, the coefficient **β₁** captures the differential effect of a monetary policy shock (*MPShockₜ*) on firm investment (Δlog Kᵢ,ₜ₊₁) depending on how a firm's climate risk deviates from the average (i.e., the *within-period* variation in climate risk exposure).
+Under these assumptions, the coefficient **β₁** captures the differential effect of a monetary policy shock (*MPShockₜ*) on firm investment (Δlog Kᵢ,ₜ₊₁) depending on how a firm's climate risk deviates from the average (i.e., the within-period variation in climate risk exposure).
 
-- If **β₁ < 0**: Firms more exposed to climate risk than average reduce investment more** (or increase it less) in response to an accommodative monetary policy shock (e.g., a rate cut).
+- If **β₁ < 0**: Firms more exposed to climate risk than average reduce investment more (or increase it less) in response to an accommodative monetary policy shock (e.g., a rate cut).
 
 - If **β₁ > 0**: These firms respond more strongly (i.e., increase investment more) to the shock than less-exposed firms.
 
