@@ -45,7 +45,7 @@ $$
 d_{jt} = n_{jt} - q_t k' + Q_t b' + s_{jt} \geq 0
 $$
 
-where $s_{jt}$ is subject to issuance costs (e.g., dilution or fixed cost).
+where $s_{jt}$ is subject to issuance costs (as we saw in class).
 
 ## 2. Add Bond Market Access
 
