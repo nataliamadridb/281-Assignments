@@ -73,7 +73,6 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
    In the absence of monetary policy shocks, firms with high and low climate risk would have followed similar investment trends — this is addressed by firm and time fixed effects.
 
 ---
-
 ### Interpretation
 Under these assumptions, the interaction coefficient β₁ identifies the differential investment response to monetary policy for firms with higher physical climate risk exposure. A negative and significant coefficient would suggest that climate risk impairs the monetary transmission channel**, possibly by tightening financing constraints or lowering expected returns on investment.
 
