@@ -74,7 +74,13 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
 
 ---
 ### Interpretation
-Under these assumptions, the interaction coefficient β₁ identifies the differential investment response to monetary policy for firms with higher physical climate risk exposure. A negative and significant coefficient would suggest that climate risk impairs the monetary transmission channel**, possibly by tightening financing constraints or lowering expected returns on investment.
+Under these assumptions, the coefficient **β₁** captures the differential effect of a monetary policy shock (*MPShockₜ*) on firm investment (Δlog Kᵢ,ₜ₊₁) depending on how a firm's climate risk deviates from the average (i.e., the *within-period* variation in climate risk exposure).
+
+- If **β₁ < 0**: Firms more exposed to climate risk than average reduce investment more** (or increase it less) in response to an accommodative monetary policy shock (e.g., a rate cut).
+
+- If **β₁ > 0**: These firms respond more strongly (i.e., increase investment more) to the shock than less-exposed firms.
+
+- This formulation removes cross-sectional level differences in climate risk, focusing on heterogeneous treatment effects of monetary policy based on relative exposure.
 
 
 ## References  
