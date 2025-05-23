@@ -7,7 +7,7 @@ namadrid@ucsd.edu
 ---
 
 ## Motivation
-Firms around the world are increasingly exposed to physical climate risks — including floods, hurricanes, wildfires, and rising heat — that can damage physical assets, disrupt operations, and impair long-term planning. While the macroeconomic consequences of climate change have received growing attention, we still know relatively little about how firm-level climate risk exposure affects investment behavior, particularly when interacting with macroeconomic policy shocks.
+Firms around the world are increasingly exposed to physical climate risks — including floods, hurricanes, wildfires, and rising heat — that can damage physical assets and disrupt operations. While the macroeconomic consequences of climate change have received growing attention, we still know relatively little about how firm-level climate risk exposure affects investment behavior, particularly when interacting with macroeconomic policy shocks.
 
 Understanding this link is essential for two reasons. First, investment is a key margin through which firms adapt to or insure against future shocks. Second, climate risk may amplify financing frictions: asset destruction reduces collateral value, insurance premiums rise, and uncertainty about future environmental damage can raise risk premia or delay investment decisions. If these frictions interact with monetary policy, they may distort the aggregate transmission of policy across firms and regions. Recent research shows that firms with greater physical climate exposure face lower valuations (Berkman, Jona, and Soderstrom, 2024), greater credit risk (Kruttli et al., 2021), and tighter financing conditions following natural disasters (Cortés and Strahan, 2017). However, little is known about whether climate-exposed firms respond differently to monetary policy shocks, and whether climate risk acts as a friction that dampens investment precisely when rates fall.
 
@@ -31,7 +31,7 @@ Firms that are more exposed to physical climate risk will respond less to expans
 
 ## Identification Strategy
 
-This project adapts the identification strategy from Ottonello & Winberry (2020) to study whether firms with higher exposure to physical climate risk respond differently to monetary policy shocks in terms of their investment behavior. The approach uses a panel of firm-level investment outcomes interacted with high-frequency monetary policy shocks and firm-specific measures of climate risk. The identification relies on within-firm variation over time, allowing us to control for unobserved, time-invariant firm characteristics.
+I will follow the identification strategy from Ottonello & Winberry (2020) to study whether firms with higher exposure to physical climate risk respond differently to monetary policy shocks in terms of their investment behavior
 
 
 $$
