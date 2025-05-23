@@ -1,8 +1,8 @@
-# Equity in Crisis: Heterogeneous firms and Investment decision under Monetary Policy  
+# Equity in Crisis: Heterogeneous firms and Investment decision
 **Natalia Madrid**  
 Ph.D. student in Economics  
 namadrid@ucsd.edu  
-*May 8, 2025*
+*May 24, 2025*
 
 ---
 ## Motivation
