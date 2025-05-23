@@ -51,7 +51,6 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
 ### Key Elements
 
 - Monetary policy shocks $\text{MPShock}_t$ are identified using high-frequency event-study methods, ensuring they are exogenous to individual firm decisions and not driven by firm-specific or sector-specific conditions.
-- The interaction term (MPShockₜ × ClimateRiskᵢ) captures heterogeneity in the investment response to monetary policy as a function of climate vulnerability.
 - The regression includes:
   - **Firm fixed effects** (`α_i`) to control for time-invariant unobserved firm characteristics
   - **Time fixed effects** (`γ_t`) to absorb aggregate shocks and policy trends
