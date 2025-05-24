@@ -14,7 +14,7 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
 - $\text{MPShock}_t$: Monetary policy shock at time $t$ (high-frequency identified)  
 - $\mathbf{X}_{it}$: Vector of time-varying firm-level controls (e.g., size, leverage, liquidity)  
 - $\varepsilon_{it}$: Error term
-
+- 
 
 ### Key Elements
 
