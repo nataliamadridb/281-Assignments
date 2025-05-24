@@ -80,10 +80,8 @@ Firms choose among internal funds, debt, bonds, or equity—balancing cost and a
 ## References
 
 - DeAngelo, H., DeAngelo, L., & Stulz, R. M. (2010). *Seasoned equity offerings, market timing, and the corporate lifecycle*. Journal of Financial Economics, 95(3), 275–295.  
-  [https://doi.org/10.1016/j.jfineco.2009.11.002](https://doi.org/10.1016/j.jfineco.2009.11.002)
 
 - Becker, B., & Benmelech, E. (2021). *The resilience of the U.S. corporate bond market during financial crises*. NBER Working Paper No. 28868.  
-  [https://www.nber.org/papers/w28868](https://www.nber.org/papers/w28868)
 
 - Ottonello, P., & Winberry, T. (2020). *Financial heterogeneity and the investment channel of monetary policy*. Econometrica, 88(6), 2473–2502.  
   
