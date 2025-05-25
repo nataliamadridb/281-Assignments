@@ -38,7 +38,7 @@ I will follow the identification strategy from Ottonello & Winberry (2020) to st
    The climate risk variable should not simply capture other sources of investment sluggishness (e.g., firm size or capital intensity). The inclusion of rich firm-level controls mitigates this risk.
 
 4. **Parallel Trends**  
-   In the absence of monetary policy shocks, firms with high and low climate risk would have followed similar investment trends — this is addressed by firm and time fixed effects.
+   In the absence of monetary policy shocks, firms with high and low climate risk would have followed similar investment trends — this is addressed by firm and time fixed effects. 
 
 ---
 ### Interpretation
@@ -49,8 +49,8 @@ Under these assumptions, the coefficient **β₁** captures the differential eff
 - If **β₁ > 0**: These firms respond more strongly (i.e., increase investment more) to the shock than less-exposed firms.
 
 ## Data  
-- **Firm financials**: Compustat (investment, leverage, size, liquidity). I have this data but is TOO LARGE to uploud here, instead, I uplouded the query from Compustat. 
-- **Monetary policy shocks**: High-frequency monetary shocks. 
-- **Physical climate risk**: I uplouded some proxies from Bloomberg.
+- **Firm financials**: Compustat (investment, leverage, size). Available in the data folder.
+- **Monetary policy shocks**: High-frequency monetary shocks (I was planning to use Romer Romer but they are available until 2007). 
+- **Physical climate risk**: I uploaded some proxies from Bloomberg.
 
 
