@@ -54,3 +54,32 @@ Under these assumptions, the coefficient **β₁** captures the differential eff
 - **Physical climate risk**: I uploaded some proxies from Bloomberg.
 
 
+# Feedback by Juan Herreño.
+
+Hi Natalia,
+
+See feedback below. Please send me an email when you have thought about, incorporated, and make progress on your idea.
+
+Best,
+
+Juan
+
+
+## Within-firm variation
+
+How are you thinking of within-firm variation (CR_{it} - E(CR_i))? I think you should think more precisely what this measure actually is, to ensure that you have sufficient within-firm variation to conduct your design. 
+
+## Interpretation. 
+
+It's important that you think of the economic meaning of $\beta_1$ in terms of economic mechanisms rather than a pure description of the data. I understand that for example $\beta_1 > 0$ means that firms more exposed to climate risk respond more to MP shocks, but what does that specifically means? What am I learning from the underlying functioning of the economy by looking at that statistic?
+
+## Research design.
+
+I think you did a very good job at making your research design explicit. I appreciate that. I think deciding what is the measure of climate risk is the most important thing to decide on early on.
+
+## General feedback
+
+This sounds interesting, but to understand the potential of the idea, I'd like to know what is it specifically what do you hope to learn by running these regressions.
+
+
+
