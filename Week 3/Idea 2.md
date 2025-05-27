@@ -86,3 +86,7 @@ Under these assumptions, the coefficient **β₁** captures the differential eff
 - Berkman, H., Jona, J., & Soderstrom, N. (2024). *Firm-Specific Climate Risk Exposure and Valuation*. Accounting, Organizations and Society.
 - Cortés, K., & Strahan, P. (2017). *Tracing Out Capital Flows: How Financially Integrated Banks Respond to Natural Disasters*. Journal of Financial Economics  
 - Javadi, S., & Masum, A.-A. (2021). *The Impact of Climate Change on the Cost of Bank Loans*. Journal of Corporate Finance, 69, 102019. 
+
+# Juan's comments.
+
+Similar to your submission for the class project :)
