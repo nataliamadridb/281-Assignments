@@ -86,4 +86,14 @@ Firms choose among internal funds, debt, bonds, or equity—balancing cost and a
 - Ottonello, P., & Winberry, T. (2020). *Financial heterogeneity and the investment channel of monetary policy*. Econometrica, 88(6), 2473–2502.  
   
 
+# Juan's comments 
 
+Hi Natalia.
+
+In terms of the model. How are you going to introduce the bond market? Please consider what specifically is different with respect to bank credit *in the model*.
+
+In terms of equity financing. This literature includes equity constraints to be consistent with the data, firms do not issue equity after small fluctuations. There is a large literature on banking on the reason why (asymmetric information, basically). So before you think of extending the model (actually the model without equity issuance constraints is easier to solve), see if this margin is relevant in the data.
+
+Best,
+
+Juan
