@@ -7,6 +7,7 @@ This paper examines how monetary policy shocks affect firm-level investment, wit
 
 log_investment_it = β₁ (climate_risk_i × MPS_t) + β₂ log(size_it) + α_i + ε_it
 
+**(next steps: try to check the identifying assumptions for this beta to be causal estimation)**
 
 Where:
 
@@ -21,6 +22,7 @@ The interaction term `climate_risk × MPS` captures whether firms with higher ph
 
 - Juan's question: This sounds interesting, but to understand the potential of the idea, I'd like to know what is it specifically what do you hope to learn by running these regressions.
 **The goal of this regression is to understand whether physical climate risk is a meaningful source of heterogeneity in the transmission of monetary policy to firm investment. Specifically, I want to test whether firms more exposed to physical climate risk react more (or less) to expansionary monetary policy shocks, which would suggest that climate vulnerability shapes financial sensitivity. I guess this can reveal new channels through which climate risk affects macroeconomic dynamics and investment behavior (I have not seen so much research on this).**
+
 
 ## 2. Data Sources
 
