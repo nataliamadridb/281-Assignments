@@ -31,7 +31,7 @@ The interaction term `climate_risk × MPS` captures whether firms with higher ph
 
 |------------------------|-------------|-----------|--------|------|----------------------|
 
-| `climate_risk_MPS`     | 0.0071      | 0.0033    | 2.14   | 0.033| [0.0006, 0.0136]     |
+| `climate_risk_MPS`     | **0.0071**      | 0.0033    | 2.14   | 0.033| [0.0006, 0.0136]     |
 
 | `log_size`             | 0.0918      | 0.0114    | 8.09   | 0.000| [0.0695, 0.1140]     |
 
@@ -53,8 +53,6 @@ The interaction term `climate_risk × MPS` is **positive and statistically signi
 > **Firms more exposed to physical climate risk increase investment more in response to expansionary monetary policy shocks.**
 
 This supports the idea that these firms are more financially constrained or sensitive to financing conditions, so monetary easing leads to a stronger investment response.
-
-The positive coefficient on `log_size` indicates that larger firms invest more, even controlling for firm fixed effects.
 
 ## 5. Conclusion
 
