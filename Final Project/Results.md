@@ -6,6 +6,8 @@
 This paper examines how monetary policy shocks affect firm-level investment, with heterogeneity based on firms' exposure to physical climate risk. The baseline regression is specified as:
 
 log_investment_it = β₁ (climate_risk_i × MPS_t) + β₂ log(size_it) + α_i + ε_it
+$$\text{log\_investment}_{it} = \beta_1 \cdot (\text{climate\_risk}_i \times \text{MPS}_t) + \beta_2 \cdot \log(\text{size}_{it}) + \alpha_i + \varepsilon_{it}$$
+
 
 Where:
 
@@ -71,7 +73,7 @@ $$
 - Production: $$Y_{i,t} = A_t K_{i,t}^{\alpha} L_{i,t}^{1-\alpha}$$
 
 - Investment cost increases with climate risk and interest rates:
-- \text{Cost of investment: } $$\phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta_i \cdot r_t$$
+- Cost of investment:  $$\phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta_i \cdot r_t$$
 
   phi(r_t, theta_i) = phi_0 + phi_1 * theta_i * r_t
 
