@@ -95,3 +95,8 @@ $$I_t = \int_0^1 I_{i,t} \, di, \quad Y_t = \int_0^1 Y_{i,t} \, di$$
 This model captures how firm-level climate vulnerability affects the transmission of monetary policy. It opens a new line of research in heterogeneous-agent macro where climate exposure is a key structural state variable.
 
 
+### Possible mechanisms
+1) Risk-exposed firms are financially constrained, and looser monetary policy alleviates these constraints more (firms facing physical climate risks often delay investment due to uncertainty. Easier monetary policy relaxes financial constraints, allowing them to resume postponed investment.)
+2) Climate-vulnerable firms might invest more as a form of adaptation or resilience building when credit is cheaper, acting like a buffer stock strategy.
+
+
