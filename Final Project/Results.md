@@ -6,6 +6,7 @@
 This paper examines how monetary policy shocks affect firm-level investment, with heterogeneity based on firms' exposure to physical climate risk. The baseline regression is specified as:
 
 log_investment_it = β₁ (climate_risk_i × MPS_t) + β₂ log(size_it) + α_i + ε_it
+$$\text{log\_investment}_{it} = \beta_1 (\text{climate\_risk}_i \times \text{MPS}_t) + \beta_2 \log(\text{size}_{it}) + \alpha_i + \varepsilon_{it}$$
 
 Where:
 
@@ -71,8 +72,7 @@ $$
 - Production: $$Y_{i,t} = A_t K_{i,t}^{\alpha} L_{i,t}^{1-\alpha}$$
 
 - Investment cost increases with climate risk and interest rates:
-- 
-$$\text{Cost of investment: } \phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta_i \cdot r_t$$
+- \text{Cost of investment: } $$\phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta_i \cdot r_t$$
 
   phi(r_t, theta_i) = phi_0 + phi_1 * theta_i * r_t
 
@@ -81,12 +81,12 @@ $$\text{Cost of investment: } \phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta
 ### Monetary Policy
 - Central bank follows a Taylor rule:
 
-  i_t = rho * i_{t-1} + (1 - rho) * (phi_pi * pi_t + phi_y * y_t) + eps_m
+$$i_t = \rho i_{t-1} + (1 - \rho)(\phi_\pi \pi_t + \phi_y y_t) + \varepsilon^m_t$$
+
 
 ### Aggregation
 - Aggregate investment and output:
-
-  I_t = ∫ I_it di ;   Y_t = ∫ Y_it di
+$$I_t = \int_0^1 I_{i,t} \, di, \quad Y_t = \int_0^1 Y_{i,t} \, di$$
 
 - Climate risk heterogeneity causes amplification: the same rate cut leads to different responses depending on theta_i.
 
