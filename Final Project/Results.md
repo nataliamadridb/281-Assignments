@@ -65,11 +65,13 @@ U'(C_t) = \beta E_t[U'(C_{t+1})(1 + r_{t+1})]
 $$
 
 
-  U'(C_t) = beta * E_t[U'(C_{t+1}) * (1 + r_{t+1})]
 
 ### Firms
 - Each firm has a physical climate risk exposure theta_i.
-- Production: Y_it = A_t * K_it^alpha * L_it^(1 - alpha)
+- Production: $
+Y_{i,t} = A_t K_{i,t}^{\alpha} L_{i,t}^{1-\alpha}
+$
+
 - Investment cost increases with climate risk and interest rates:
 
   phi(r_t, theta_i) = phi_0 + phi_1 * theta_i * r_t
