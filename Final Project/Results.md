@@ -3,7 +3,7 @@
 
 ## 1. Empirical Strategy
 
-This analysis examines how monetary policy shocks affect firm-level investment, with heterogeneity based on firms' exposure to physical climate risk. The baseline regression is specified as:
+This paper examines how monetary policy shocks affect firm-level investment, with heterogeneity based on firms' exposure to physical climate risk. The baseline regression is specified as:
 
 log_investment_it = β₁ (climate_risk_i × MPS_t) + β₂ log(size_it) + α_i + ε_it
 
@@ -45,7 +45,7 @@ Coefficient: 0.0071 | p-value: 0.033
 This coefficient is positive and statistically significant at the 5% level. It indicates that firms with higher exposure to physical climate risk increase their investment more strongly in response to an expansionary monetary policy shock. Specifically, a one-unit increase in climate risk amplifies the investment response by 0.71 percentage points (in logs), suggesting that climate-vulnerable firms are more sensitive to changes in financial conditions.
 
 > **Firms more exposed to physical climate risk increase investment more in response to expansionary monetary policy shocks.**
-This supports the idea that these firms are more financially constrained or sensitive to financing conditions, so monetary easing leads to a stronger investment response.
+This result provides evidence that **climate risk is an important dimension of heterogeneity in firms' responses to monetary policy**. It suggests that financial channels of monetary policy may be amplified in vulnerable firms, such as those facing greater exposure to physical climate risks.
 
 
 **Model Notes**:
@@ -53,8 +53,59 @@ This supports the idea that these firms are more financially constrained or sens
 - The model includes firm fixed effects (gvkey), which control for all time-invariant firm characteristics.
 - Standard errors are clustered at the firm level (523 clusters), accounting for serial correlation in investment.
 
+## 5. Model Sketch 
 
-## 5. Conclusion
+I propose a **heterogeneous firm New Keynesian (HFNK) model** to rationalize the empirical finding that firms with higher physical climate risk respond more strongly to expansionary monetary policy shocks.
 
-This regression provides evidence that **climate risk is an important dimension of heterogeneity in firms' responses to monetary policy**. It suggests that financial channels of monetary policy may be amplified in vulnerable firms, such as those facing greater exposure to physical climate risks.
+### Environment:
+- **Time**: Infinite horizon, discrete time.
+- **Agents**: Representative household, continuum of firms \( i \in [0,1] \), monetary authority.
+- **Shocks**: Monetary policy shock \( \varepsilon^m_t \), possibly climate shock \( \varepsilon^c_t \).
+
+### Households:
+- Supply labor and save.
+- Consumption Euler equation determines intertemporal allocation:
+  
+  \[
+  U'(C_t) = \beta E_t[U'(C_{t+1})(1 + r_{t+1})]
+  \]
+
+### Firms:
+- Firms differ in their physical climate risk exposure \( \theta_i \).
+- Production function: 
+  
+  \[
+  Y_{i,t} = A_t K_{i,t}^{\alpha} L_{i,t}^{1-\alpha}
+  \]
+
+- Investment cost function reflects climate risk interaction:
+  
+  \[
+  \phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta_i \cdot r_t
+  \]
+
+- A higher \( \theta_i \) implies greater sensitivity to the real interest rate \( r_t \).
+
+### Monetary Policy:
+- The central bank sets the nominal rate via a Taylor rule:
+
+  \[
+  i_t = \rho i_{t-1} + (1 - \rho)(\phi_\pi \pi_t + \phi_y y_t) + \varepsilon^m_t
+  \]
+
+### Aggregation:
+- Aggregate investment and output:
+
+  \[
+  I_t = \int_0^1 I_{i,t} \, di, \quad Y_t = \int_0^1 Y_{i,t} \, di
+  \]
+
+- Climate heterogeneity causes amplification: the same policy shock creates uneven firm responses depending on \( \theta_i \).
+
+### Calibration and Quantitative Use:
+- Calibrate \( \phi_1 \) to match your empirical estimate (≈ 0.0071).
+- Simulate impulse response functions (IRFs) for firms with different \( \theta_i \) values.
+
+### Contribution:
+This model formalizes the empirical insight that **climate risk alters the strength of monetary policy transmission**. It opens a new dimension in heterogeneous-agent macro: climate exposure as a structural source of amplification or asymmetry in aggregate responses to policy.
 
