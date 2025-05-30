@@ -100,7 +100,7 @@ $$I_t = \int_0^1 I_{i,t} \, di, \quad Y_t = \int_0^1 Y_{i,t} \, di$$
 This model captures how firm-level climate vulnerability affects the transmission of monetary policy. It opens a new line of research in heterogeneous-agent macro where climate exposure is a key structural state variable.
 
 
-### Possible mechanisms
+## 6. Possible mechanisms
 - Juan's question: What am I learning from the underlying functioning of the economy by looking at that statistic?
 
 I may want to understand which is the mechanism which is driving my result.
