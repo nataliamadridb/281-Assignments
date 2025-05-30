@@ -11,7 +11,7 @@ Where:
 
 - `log_investment_it`: log-difference in PPENTQ (property, plant, and equipment net quarterly), approximating the firm-level investment rate.  
 - `MPS_t`: monetary policy shock from the FRBSF MPS dataset (sign-inverted, so positive = expansionary shock).  
-- `climate_risk_i`: physical climate risk exposure from Bloomberg.  
+- `climate_risk_i`: firm physical climate risk exposure.
 - `log(size_it)`: control for firm size.  
 - `α_i`: firm fixed effects (gvkey).  
 - Standard errors are clustered at the firm level.
@@ -20,10 +20,10 @@ The interaction term `climate_risk × MPS` captures whether firms with higher ph
 
 ## 2. Data Sources
 
-- **Investment (log_ppentq)**: Compustat  
-- **Climate Risk (climate_risk)**: Bloomberg ESG physical risk score  
-- **Monetary Policy Shocks (mps_orth)**: FRBSF MPS Quarterly dataset (Swanson, 2021), sign-inverted  
-- **Firm Size**: log of total assets or market cap
+- **Firm level financial data**: Compustat  
+- **Climate Risk (climate_risk)**: Bloomberg physical risk score  
+- **Monetary Policy Shocks (mps_orth)**: FRBSF MPS Quarterly dataset (Swanson, 2023), sign-inverted  
+
 
 ## 3. Regression Table
 
