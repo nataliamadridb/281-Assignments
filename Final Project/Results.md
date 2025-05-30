@@ -38,9 +38,7 @@ The interaction term `climate_risk × MPS` captures whether firms with higher ph
 - Observations: 25,478
 - Adjusted R-squared: 0.014
 
-## 4. Interpretation
-
-**climate_risk_MPS (Interaction Term)**
+## 4. Interpretation (Interaction Term)
 
 Coefficient: 0.0071 | p-value: 0.033
 
