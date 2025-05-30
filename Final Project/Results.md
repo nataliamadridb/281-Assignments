@@ -59,5 +59,5 @@ This supports the idea that these firms are more financially constrained or sens
 
 ## 5. Conclusion
 
-This regression provides evidence that climate risk is an important dimension of heterogeneity in firms' responses to monetary policy. It suggests that financial channels of monetary policy may be amplified in vulnerable firms, such as those facing greater exposure to physical climate risks.
+This regression provides evidence that **climate risk is an important dimension of heterogeneity in firms' responses to monetary policy**. It suggests that financial channels of monetary policy may be amplified in vulnerable firms, such as those facing greater exposure to physical climate risks.
 
