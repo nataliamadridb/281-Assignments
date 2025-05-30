@@ -60,6 +60,11 @@ I propose a heterogeneous firm New Keynesian (HFNK) model to rationalize the emp
 - Supply labor and save.
 - Their consumption decision follows an Euler equation:
 
+$$
+U'(C_t) = \beta E_t[U'(C_{t+1})(1 + r_{t+1})]
+$$
+
+
   U'(C_t) = beta * E_t[U'(C_{t+1}) * (1 + r_{t+1})]
 
 ### Firms
