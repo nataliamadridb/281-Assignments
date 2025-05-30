@@ -73,9 +73,6 @@ $$
 
 - Investment cost increases with climate risk and interest rates:
 - Cost of investment:  $$\phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta_i \cdot r_t$$
-
-  phi(r_t, theta_i) = phi_0 + phi_1 * theta_i * r_t
-
 - So higher theta_i makes investment more sensitive to interest rates.
 
 ### Monetary Policy
