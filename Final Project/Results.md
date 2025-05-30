@@ -47,60 +47,47 @@ This coefficient is positive and statistically significant at the 5% level. It i
 > **Firms more exposed to physical climate risk increase investment more in response to expansionary monetary policy shocks.**
 This result provides evidence that **climate risk is an important dimension of heterogeneity in firms' responses to monetary policy**. It suggests that financial channels of monetary policy may be amplified in vulnerable firms, such as those facing greater exposure to physical climate risks.
 
+## 5. Model Sketch and Theoretical Contribution
 
-## 5. Model Sketch 
+I propose a heterogeneous firm New Keynesian (HFNK) model to rationalize the empirical finding that firms with higher physical climate risk respond more strongly to expansionary monetary policy shocks.
 
-I propose a **heterogeneous firm New Keynesian (HFNK) model** to rationalize the empirical finding that firms with higher physical climate risk respond more strongly to expansionary monetary policy shocks.
-
-### Environment:
+### Environment
 - **Time**: Infinite horizon, discrete time.
-- **Agents**: Representative household, continuum of firms \( i \in [0,1] \), monetary authority.
-- **Shocks**: Monetary policy shock \( \varepsilon^m_t \), possibly climate shock \( \varepsilon^c_t \).
+- **Agents**: Representative household, continuum of firms (i in [0,1]), monetary authority.
+- **Shocks**: Monetary policy shock (eps_m), optionally climate shock (eps_c).
 
-### Households:
+### Households
 - Supply labor and save.
-- Consumption Euler equation determines intertemporal allocation:
-  
-  \[
-  U'(C_t) = \beta E_t[U'(C_{t+1})(1 + r_{t+1})]
-  \]
+- Their consumption decision follows an Euler equation:
 
-### Firms:
-- Firms differ in their physical climate risk exposure \( \theta_i \).
-- Production function: 
-  
-  \[
-  Y_{i,t} = A_t K_{i,t}^{\alpha} L_{i,t}^{1-\alpha}
-  \]
+  U'(C_t) = beta * E_t[U'(C_{t+1}) * (1 + r_{t+1})]
 
-- Investment cost function reflects climate risk interaction:
-  
-  \[
-  \phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta_i \cdot r_t
-  \]
+### Firms
+- Each firm has a physical climate risk exposure theta_i.
+- Production: Y_it = A_t * K_it^alpha * L_it^(1 - alpha)
+- Investment cost increases with climate risk and interest rates:
 
-- A higher \( \theta_i \) implies greater sensitivity to the real interest rate \( r_t \).
+  phi(r_t, theta_i) = phi_0 + phi_1 * theta_i * r_t
 
-### Monetary Policy:
-- The central bank sets the nominal rate via a Taylor rule:
+- So higher theta_i makes investment more sensitive to interest rates.
 
-  \[
-  i_t = \rho i_{t-1} + (1 - \rho)(\phi_\pi \pi_t + \phi_y y_t) + \varepsilon^m_t
-  \]
+### Monetary Policy
+- Central bank follows a Taylor rule:
 
-### Aggregation:
+  i_t = rho * i_{t-1} + (1 - rho) * (phi_pi * pi_t + phi_y * y_t) + eps_m
+
+### Aggregation
 - Aggregate investment and output:
 
-  \[
-  I_t = \int_0^1 I_{i,t} \, di, \quad Y_t = \int_0^1 Y_{i,t} \, di
-  \]
+  I_t = ∫ I_it di ;   Y_t = ∫ Y_it di
 
-- Climate heterogeneity causes amplification: the same policy shock creates uneven firm responses depending on \( \theta_i \).
+- Climate risk heterogeneity causes amplification: the same rate cut leads to different responses depending on theta_i.
 
-### Calibration and Quantitative Use:
-- Calibrate \( \phi_1 \) to match your empirical estimate (≈ 0.0071).
-- Simulate impulse response functions (IRFs) for firms with different \( \theta_i \) values.
+### Calibration and Quantitative Use
+- Calibrate phi_1 to match your estimated interaction coefficient (~0.0071).
+- Simulate impulse response functions (IRFs) to a monetary shock across high- vs. low-risk firms.
 
-### Contribution:
-This model formalizes the empirical insight that **climate risk alters the strength of monetary policy transmission**. It opens a new dimension in heterogeneous-agent macro: climate exposure as a structural source of amplification or asymmetry in aggregate responses to policy.
+### Contribution
+This model captures how firm-level climate vulnerability affects the transmission of monetary policy. It opens a new line of research in heterogeneous-agent macro where climate exposure is a key structural state variable.
+
 
