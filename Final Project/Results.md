@@ -25,7 +25,7 @@ The interaction term `climate_risk × MPS` captures whether firms with higher ph
 - **Monetary Policy Shocks (mps_orth)**: FRBSF MPS Quarterly dataset (Swanson, 2023), sign-inverted  
 
 
-## 3. Regression Table
+## 3. Results
 
 | Variable               | Coefficient | Standard Error | t-stat | P>\|t\| | 95% Confidence Interval |
 | ---------------------- | ----------: | -------------: | -----: | ------: | ----------------------: |
@@ -33,39 +33,31 @@ The interaction term `climate_risk × MPS` captures whether firms with higher ph
 | **log\_size**          |      0.0918 |          0.011 |  8.09  |   0.000 |    \[ 0.0695 , 0.1140 ] |
 | **\_cons**             |     -0.6305 |          0.078 |  -8.09 |   0.000 |    \[-0.7835 , -0.4774] |
 
-Fixed Effects: Firm (gvkey)
-Clustering: 523 (gvkey)
-Observations: 25,478
-Adjusted R-squared: 0.014
-
-
-| Variable                | Coefficient | Std. Err. | t-stat | P>|t| | 95% CI              |
-
-|------------------------|-------------|-----------|--------|------|----------------------|
-
-| `climate_risk_MPS`     | **0.0071**      | 0.0033    | 2.14   | 0.033| [0.0006, 0.0136]     |
-
-| `log_size`             | 0.0918      | 0.0114    | 8.09   | 0.000| [0.0695, 0.1140]     |
-
-| `_cons`                | -0.6305     | 0.0779    | -8.09  | 0.000| [-0.7835, -0.4774]   |
-
-| **Fixed Effects:**     | Firm (gvkey) |           |        |      |                      |
-
-| **Clusters:**          | 523 (gvkey) |           |        |      |                      |
-
-| **Observations:**      | 25,478      |           |        |      |                      |
-
-| **Adj R-squared:**     | 0.014       |           |        |      |                      |
-
+- Fixed Effects: Firm (gvkey)
+- Clustering: 523 (gvkey)
+- Observations: 25,478
+- Adjusted R-squared: 0.014
 
 ## 4. Interpretation
 
-The interaction term `climate_risk × MPS` is **positive and statistically significant** at the 5% level.
+**climate_risk_MPS (Interaction Term)**
+
+Coefficient: 0.0071 | p-value: 0.033
+
+This coefficient is positive and statistically significant at the 5% level. It indicates that firms with higher exposure to physical climate risk increase their investment more strongly in response to an expansionary monetary policy shock. Specifically, a one-unit increase in climate risk amplifies the investment response by 0.71 percentage points (in logs), suggesting that climate-vulnerable firms are more sensitive to changes in financial conditions.
 
 > **Firms more exposed to physical climate risk increase investment more in response to expansionary monetary policy shocks.**
-
 This supports the idea that these firms are more financially constrained or sensitive to financing conditions, so monetary easing leads to a stronger investment response.
+
+
+**Model Notes**:
+
+- The model includes firm fixed effects (gvkey), which control for all time-invariant firm characteristics.
+- Standard errors are clustered at the firm level (523 clusters), accounting for serial correlation in investment.
+- The adjusted R-squared is 0.014, which is typical for high-frequency panel regressions and reflects substantial firm-specific heterogeneity.
+
 
 ## 5. Conclusion
 
-This regression shows that **physical climate risk is a meaningful source of heterogeneity** in how firms respond to monetary policy shocks. Monetary policy may have **amplified effects** on investment through firms that are vulnerable to climate risk.
+This regression provides evidence that climate risk is an important dimension of heterogeneity in firms' responses to monetary policy. It suggests that financial channels of monetary policy may be amplified in vulnerable firms, such as those facing greater exposure to physical climate risks.
+
