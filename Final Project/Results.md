@@ -71,6 +71,8 @@ $$
 - Production: $$Y_{i,t} = A_t K_{i,t}^{\alpha} L_{i,t}^{1-\alpha}$$
 
 - Investment cost increases with climate risk and interest rates:
+- 
+$$\text{Cost of investment: } \phi(r_t, \theta_i) = \phi_0 + \phi_1 \cdot \theta_i \cdot r_t$$
 
   phi(r_t, theta_i) = phi_0 + phi_1 * theta_i * r_t
 
