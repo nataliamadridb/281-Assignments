@@ -29,7 +29,7 @@ The interaction term `climate_risk × MPS` captures whether firms with higher ph
 
 | Variable               | Coefficient | Standard Error | t-stat | P>\|t\| | 95% Confidence Interval |
 | ---------------------- | ----------: | -------------: | -----: | ------: | ----------------------: |
-| **climate\_risk\_MPS** |      0.0071 |          0.003 |  2.14  |   0.033 |    \[ 0.0006 , 0.0136 ] |
+| **climate\_risk\_MPS** |      **0.0071** |          0.003 |  2.14  |   0.033 |    \[ 0.0006 , 0.0136 ] |
 | **log\_size**          |      0.0918 |          0.011 |  8.09  |   0.000 |    \[ 0.0695 , 0.1140 ] |
 | **\_cons**             |     -0.6305 |          0.078 |  -8.09 |   0.000 |    \[-0.7835 , -0.4774] |
 
