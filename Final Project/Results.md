@@ -54,7 +54,6 @@ This supports the idea that these firms are more financially constrained or sens
 
 - The model includes firm fixed effects (gvkey), which control for all time-invariant firm characteristics.
 - Standard errors are clustered at the firm level (523 clusters), accounting for serial correlation in investment.
-- The adjusted R-squared is 0.014, which is typical for high-frequency panel regressions and reflects substantial firm-specific heterogeneity.
 
 
 ## 5. Conclusion
