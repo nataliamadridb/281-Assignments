@@ -48,11 +48,6 @@ This coefficient is positive and statistically significant at the 5% level. It i
 This result provides evidence that **climate risk is an important dimension of heterogeneity in firms' responses to monetary policy**. It suggests that financial channels of monetary policy may be amplified in vulnerable firms, such as those facing greater exposure to physical climate risks.
 
 
-**Model Notes**:
-
-- The model includes firm fixed effects (gvkey), which control for all time-invariant firm characteristics.
-- Standard errors are clustered at the firm level (523 clusters), accounting for serial correlation in investment.
-
 ## 5. Model Sketch 
 
 I propose a **heterogeneous firm New Keynesian (HFNK) model** to rationalize the empirical finding that firms with higher physical climate risk respond more strongly to expansionary monetary policy shocks.
