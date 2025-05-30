@@ -28,14 +28,23 @@ The interaction term `climate_risk × MPS` captures whether firms with higher ph
 ## 3. Regression Table
 
 | Variable                | Coefficient | Std. Err. | t-stat | P>|t| | 95% CI              |
+
 |------------------------|-------------|-----------|--------|------|----------------------|
+
 | `climate_risk_MPS`     | 0.0071      | 0.0033    | 2.14   | 0.033| [0.0006, 0.0136]     |
+
 | `log_size`             | 0.0918      | 0.0114    | 8.09   | 0.000| [0.0695, 0.1140]     |
+
 | `_cons`                | -0.6305     | 0.0779    | -8.09  | 0.000| [-0.7835, -0.4774]   |
+
 | **Fixed Effects:**     | Firm (gvkey) |           |        |      |                      |
+
 | **Clusters:**          | 523 (gvkey) |           |        |      |                      |
+
 | **Observations:**      | 25,478      |           |        |      |                      |
+
 | **Adj R-squared:**     | 0.014       |           |        |      |                      |
+
 
 ## 4. Interpretation
 
