@@ -7,7 +7,7 @@ This paper examines how monetary policy shocks affect firm-level investment, wit
 
 log_investment_it = β₁ (climate_risk_i × MPS_t) + β₂ log(size_it) + α_i + ε_it
 
-**(next steps: try to check the identifying assumptions for this beta to be causal estimation)**
+**(next steps: try to check the identifying assumptions (economic meaning) for this beta to be causal estimation)**
 
 Where:
 
