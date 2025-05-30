@@ -55,10 +55,10 @@ I propose a heterogeneous firm New Keynesian (HFNK) model to rationalize the emp
 ### Environment
 - **Time**: Infinite horizon, discrete time.
 - **Agents**: Representative household, continuum of firms (i in [0,1]), monetary authority.
-- **Shocks**: Monetary policy shock (eps_m), optionally climate shock (eps_c).
+- **Shocks**: Monetary policy shock (eps_m).
 
 ### Households
-- Supply labor and save.
+- Supply labor inelastically.
 - Their consumption decision follows an Euler equation:
 
 $$
