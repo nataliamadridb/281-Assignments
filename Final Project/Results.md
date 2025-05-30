@@ -19,6 +19,9 @@ Where:
 
 The interaction term `climate_risk × MPS` captures whether firms with higher physical climate risk respond differently to monetary policy shocks.
 
+- Juan's question: This sounds interesting, but to understand the potential of the idea, I'd like to know what is it specifically what do you hope to learn by running these regressions.
+**The goal of this regression is to understand whether physical climate risk is a meaningful source of heterogeneity in the transmission of monetary policy to firm investment. Specifically, I want to test whether firms more exposed to physical climate risk react more (or less) to expansionary monetary policy shocks, which would suggest that climate vulnerability shapes financial sensitivity. This can reveal new channels through which climate risk affects macroeconomic dynamics and investment behavior.**
+
 ## 2. Data Sources
 
 - **Firm level financial data**: Compustat  
@@ -96,7 +99,21 @@ This model captures how firm-level climate vulnerability affects the transmissio
 
 
 ### Possible mechanisms
-1) Risk-exposed firms are financially constrained, and looser monetary policy alleviates these constraints more (firms facing physical climate risks often delay investment due to uncertainty. Easier monetary policy relaxes financial constraints, allowing them to resume postponed investment.)
-2) Climate-vulnerable firms might invest more as a form of adaptation or resilience building when credit is cheaper, acting like a buffer stock strategy.
+- Juan's question: What am I learning from the underlying functioning of the economy by looking at that statistic?
+
+I may want to understand which is the mechanism which is driving my result.
+**Mechanism 1: Financial Constraints + Risk Exposure**
+Climate-exposed firms may face greater credit constraints or higher risk premiums in normal times (due to uncertain future losses or reduced collateral value).
+When monetary policy eases (lower rates, looser credit), these constraints relax more strongly for vulnerable firms.
+→ So, monetary easing has nonlinear effects: it disproportionately boosts investment in firms under stress.
+
+**Mechanism 2: Precautionary Behavior and Real Options**
+High climate risk makes investment more uncertain, so firms delay irreversible projects.
+But when the cost of capital falls, the threshold for investing drops (especially for firms that were on the margin).
+→ So, we observe a real-options (wether or not to invest) effect that is stronger for risk-exposed firms.
+
+**Mechanism 3: Adaptation Behaviour**
+Firms facing rising climate risk may see investment as a form of adaptation or resilience.
+With looser financial conditions, these firms can finally afford to invest in mitigation, relocation, or infrastructure upgrades.
 
 
