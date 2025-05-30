@@ -1,5 +1,5 @@
 
-# The Effect of Monetary Policy Shocks on Firm Investment: Heterogeneity by Physical Climate Risk
+## The Effect of Monetary Policy Shocks on Firm Investment: Heterogeneity by Physical Climate Risk
 
 ## 1. Empirical Strategy
 
