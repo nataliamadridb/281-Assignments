@@ -13,7 +13,7 @@ In reality, expectations vary dramatically across households. Empirical work sho
 
 ## 2. Key Hypothesis and Mechanism
 
-This project hope to introduces heterogeneous inattention into a HANK model: each household type \( g \) has its own expectation-updating parameter \( \theta_g \), varying by income, wealth, or education.
+This project hope to introduces heterogeneous inattention into a HANK model: each household type \( g \) has its own expectation-updating parameter \( $\theta_g$., varying by income, wealth, or education.
 
 **Mechanism**:
 - After an expansionary monetary policy shock, **attentive households** (typically wealthier) adjust consumption and portfolios quickly.
