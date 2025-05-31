@@ -30,9 +30,7 @@ The model builds on a tractable HANK structure with:
 - Sticky prices and sticky expectations à la Carroll (2018).
 
 The extension introduces household-type-specific inattention:
-\[
-\theta_g = \text{inattention rate for group } g \in \{\text{low, middle, high income}\}
-\]
+$$\theta_g = \text{inattention rate for group } g \in \{\text{low, middle, high income}\}$$
 
 **Calibration**: Match \( \theta_g \) to expectations data from the Michigan Survey of Consumers or the New York Fed Survey of Consumer Expectations (SCE).
 
@@ -40,20 +38,16 @@ The extension introduces household-type-specific inattention:
 
 ## 4. Empirical Strategy
 **Validation targets**:
-- Estimate group-level \( \theta_g \) from expectation survey data (e.g., update frequency, forecast errors).
+- Estimate group-level $\theta_g$ from expectation survey data (e.g., update frequency, forecast errors).
 - Use consumption panel data (CEX, Nielsen, Chetty et al.) to trace heterogeneous consumption responses after monetary shocks.
 - Estimate local projection IRFs by income or education group using monetary shocks (e.g., Romer & Romer, M-A-R shocks).
 
 ---
 ## Literature:
 - Auclert, Adrien, Rognlie, Matthew, and Straub, Ludwig. (2020). Micro Jumps, Macro Humps: Monetary Policy and Business Cycles in an Estimated HANK Model. NBER Working Paper No. 26647. https://doi.org/10.3386/w26647
-- 
 - Auclert, A. (2019). Monetary Policy and the Redistribution Channel. American Economic Review, 109(6), 2333–2367. https://doi.org/10.1257/aer.20160137
-
-- Kaplan, G., Moll, B., & Violante, G. L. (2018). Monetary Policy According to HANK. American Economic Review, 108(3), 697–743. https://doi.org/10.1257/aer.20160042
-
-- Coibion, O., & Gorodnichenko, Y. (2015). *Information Rigidity and the Expectations Formation Process: A Simple Framework and New Facts*. American Economic Review, 105(8), 2644–2678. https://doi.org/10.1257/aer.20110306
-
-- D’Acunto, F., Malmendier, U., Ospina, J., & Weber, M. (2019). *Exposure to Inflation in Boom and Bust: How Households Interpret Price Signals*. NBER Working Paper No. 28194. [https://doi.org/10.3386/w28194](https://www.nber.org/system/files/working_papers/w26237/w26237.pdf)
+- Kaplan, G., Moll, B., & Violante, G. L. (2018). Monetary Policy According to HANK. American Economic Review, 108(3), 697–743. 
+- Coibion, O., & Gorodnichenko, Y. (2015). *Information Rigidity and the Expectations Formation Process: A Simple Framework and New Facts*. American Economic Review, 105(8), 2644–2678. 
+- D’Acunto, F., Malmendier, U., Ospina, J., & Weber, M. (2019). *Exposure to Inflation in Boom and Bust: How Households Interpret Price Signals*. NBER Working Paper No. 28194. 
 
 ---
