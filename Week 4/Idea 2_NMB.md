@@ -10,7 +10,8 @@ Monetary policy affects households asymmetrically. While models like McKay & Wie
 ---
 
 ### **Key Idea**  
-Allow households to differ in their liquidity holdings (liquid vs. illiquid assets), and study how this affects the timing of mortgage prepayment in response to interest rate cuts. I'm thinking about the class where we discussed focusing on households with high MPCs, who are typically poorer. However, wealthy households facing liquidity constraints may also be among those with high MPCs.Households with sufficient liquid assets can prepay quickly and lock in gains, while illiquid households face friction—even when incentives are favorable—resulting in delayed or foregone benefits.
+- Allow households to differ in their liquidity holdings (liquid vs. illiquid assets), and study how this affects the timing of mortgage prepayment in response to interest rate cuts (I'm thinking about the class where we discussed focusing on households with high MPCs, who are typically poorer. However, wealthy households facing liquidity constraints may also be among those with high MPCs).
+- Households with sufficient liquid assets can prepay quickly and lock in gains, while illiquid households face friction—even when incentives are favorable—resulting in delayed or foregone benefits.
 
 ---
 
@@ -50,13 +51,6 @@ Allow households to differ in their liquidity holdings (liquid vs. illiquid asse
 1. **Prepayment Response**: Elasticity of mortgage prepayment to interest rate gaps is increasing in liquid wealth.
 2. **Timing Gaps**: Households in the top liquidity quartile respond faster (prepay sooner) than the bottom quartile, even under equal rate incentives.
 3. **Policy Amplification**: Monetary stimulus leads to **early consumption boosts for wealthy**, but delayed (or absent) effects for liquidity-constrained households.
-
----
-
-### **Potential Extensions**
-- Interact liquidity with **expectation updating rates** $\theta_g$: Are liquid households more attentive, as well as more able to act?
-- Study implications for **inequality dynamics** after large interest rate movements (e.g., COVID period).
-- Calibrate using Survey of Consumer Expectations (SCE) or Michigan Survey to validate belief updating and perceived refinancing opportunities.
 
 ---
 ###References
