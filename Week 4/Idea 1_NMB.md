@@ -16,10 +16,10 @@ In reality, expectations vary dramatically across households. Empirical work sho
 This project hope to introduces heterogeneous inattention into a HANK model: each household type \( g \) has its own expectation-updating parameter \( $\theta_g$., varying by income, wealth, or education.
 
 **Mechanism**:
-- After an expansionary monetary policy shock, **attentive households** (typically wealthier) adjust consumption and portfolios quickly.
-- **Inattentive households** (typically poorer, high-MPC) delay their response due to outdated beliefs.
-- This creates **timing gaps**: even if income gains eventually reach all households, the **early consumption and asset gains accrue to the informed**.
-- The result is a **temporary but policy-induced increase in inequality**, even from a shock meant to stimulate aggregate demand.
+- After an expansionary monetary policy shock, attentive households (typically wealthier) adjust consumption and portfolios quickly.
+- Inattentive households (typically poorer, high-MPC) delay their response due to outdated beliefs.
+- This creates timing gaps: even if income gains eventually reach all households, the early consumption and asset gains accrue to the informed.
+- The result is a temporary but policy-induced increase in inequality, even from a shock meant to stimulate aggregate demand.
 
 ---
 
