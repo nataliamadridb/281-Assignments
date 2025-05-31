@@ -45,14 +45,7 @@ This introduces a form of state-dependent heterogeneity: whether a household can
 - Solve using sequence-space Jacobian techniques (as in Auclert et al., 2021) to quantify the general equilibrium impact of these timing delays.
 
 ---
-
-### **Testable Predictions**
-1. Prepayment Response: Elasticity of mortgage prepayment to interest rate gaps is increasing in liquid wealth.
-2. Timing Gaps: Households in the top liquidity quartile respond faster (prepay sooner) than the bottom quartile, even under equal rate incentives.
-3. Policy Amplification: Monetary stimulus leads to **early consumption boosts for wealthy**, but delayed (or absent) effects for liquidity-constrained households.
-
----
-###References
+### References
 
 - Auclert, A., Bardóczy, Z., Rognlie, M., & Straub, L. (2021). *Using the Sequence-Space Jacobian to Solve and Estimate Heterogeneous-Agent Models*. Econometrica, 89(5), 2375–2408. https://doi.org/10.3982/ECTA18746
 - Berger, D., Milbradt, K., Tourre, F., & Vavra, J. (2021). *Mortgage Prepayment and Path-Dependent Effects of Monetary Policy*. American Economic Review, 111(9), 2829–2878. https://doi.org/10.1257/aer.20181857
