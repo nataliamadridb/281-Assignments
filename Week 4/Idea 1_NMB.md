@@ -1,5 +1,5 @@
   
-#Information Frictions and Inequality: A HANK Model with Heterogeneous Inattention**
+# Information Frictions and Inequality: A HANK Model with Heterogeneous Inattention**
 
 ---
 
