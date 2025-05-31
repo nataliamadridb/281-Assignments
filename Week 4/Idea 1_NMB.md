@@ -1,5 +1,5 @@
   
-# Information Frictions and Inequality: A HANK Model with Heterogeneous Inattention**
+# Information Frictions and Inequality: A HANK Model with Heterogeneous Inattention
 
 ---
 
@@ -49,9 +49,15 @@ The extension introduces household-type-specific inattention:
 ---
 ## Literature:
 - Auclert, Adrien, Rognlie, Matthew, and Straub, Ludwig. (2020). Micro Jumps, Macro Humps: Monetary Policy and Business Cycles in an Estimated HANK Model. NBER Working Paper No. 26647. https://doi.org/10.3386/w26647
+- 
 - Auclert, A. (2019). Monetary Policy and the Redistribution Channel. American Economic Review, 109(6), 2333–2367. https://doi.org/10.1257/aer.20160137
 
 - Kaplan, G., Moll, B., & Violante, G. L. (2018). Monetary Policy According to HANK. American Economic Review, 108(3), 697–743. https://doi.org/10.1257/aer.20160042
+
+- Coibion, O., & Gorodnichenko, Y. (2015). *Information Rigidity and the Expectations Formation Process: A Simple Framework and New Facts*. American Economic Review, 105(8), 2644–2678. https://doi.org/10.1257/aer.20110306
+
+- D’Acunto, F., Malmendier, U., Ospina, J., & Weber, M. (2021). *Exposure to Inflation in Boom and Bust: How Households Interpret Price Signals*. NBER Working Paper No. 28194. https://doi.org/10.3386/w28194
+
 
 
 
