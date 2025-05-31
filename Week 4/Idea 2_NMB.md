@@ -47,7 +47,7 @@ This introduces a form of state-dependent heterogeneity: whether a household can
 ---
 ### References
 
-- Auclert, A., Bardóczy, Z., Rognlie, M., & Straub, L. (2021). *Using the Sequence-Space Jacobian to Solve and Estimate Heterogeneous-Agent Models*. Econometrica, 89(5), 2375–2408. https://doi.org/10.3982/ECTA18746
-- Berger, D., Milbradt, K., Tourre, F., & Vavra, J. (2021). *Mortgage Prepayment and Path-Dependent Effects of Monetary Policy*. American Economic Review, 111(9), 2829–2878. https://doi.org/10.1257/aer.20181857
-- Coibion, O., & Gorodnichenko, Y. (2015). *Information Rigidity and the Expectations Formation Process: A Simple Framework and New Facts*. American Economic Review, 105(8), 2644–2678. https://doi.org/10.1257/aer.20110306
-- McKay, A., & Wieland, J. (2021). *Lumpy Durable Consumption Demand and the Limited Ammunition of Monetary Policy*. Econometrica, 89(3), 1115–1157. https://doi.org/10.3982/ECTA17326
+- Auclert, A., Bardóczy, Z., Rognlie, M., & Straub, L. (2021). *Using the Sequence-Space Jacobian to Solve and Estimate Heterogeneous-Agent Models*. Econometrica, 89(5), 2375–2408. 
+- Berger, D., Milbradt, K., Tourre, F., & Vavra, J. (2021). *Mortgage Prepayment and Path-Dependent Effects of Monetary Policy*. American Economic Review, 111(9), 2829–2878. 
+- Coibion, O., & Gorodnichenko, Y. (2015). *Information Rigidity and the Expectations Formation Process: A Simple Framework and New Facts*. American Economic Review, 105(8), 2644–2678. 
+- McKay, A., & Wieland, J. (2021). *Lumpy Durable Consumption Demand and the Limited Ammunition of Monetary Policy*. Econometrica, 89(3), 1115–1157. 
