@@ -5,10 +5,9 @@
 
 ## 1. Motivation and Research Question
 
-In standard macroeconomic models, monetary policy is either neutral (in representative-agent settings) or its effects are shaped by heterogeneity in wealth, income, or MPCs, as in HANK models (Auclert, 2019; Kaplan et al., 2018). For example, Auclert, Rognlie, and Straub (2020) assumes in its benchmark model that all G households (general equilibrium households) share the same degree of nominal rigidity, parameterized by a common Calvo parameter $\theta$. This assumption simplifies the analysis of monetary policy transmission by applying identical sticky price behavior across firms while maintaining heterogeneity on the household side in terms of income, wealth, and marginal propensities to consume. However, these models often treat information frictions homogeneously: all households update their beliefs about the macroeconomy at the same rate. But in reality, expectations vary dramatically across households. Empirical work (e.g., Coibion and Gorodnichenko, 2015; D’Acunto et al., 2021) shows that low-income and low-education households update their expectations less frequently and less accurately than others (for example, depending on the level of education).
+In standard macroeconomic models, monetary policy is either neutral (in representative-agent settings) or its effects are shaped by heterogeneity in wealth, income, or MPCs, as in HANK models (Auclert, 2019; Kaplan et al., 2018). However, these models often treat information frictions homogeneously. For example, Auclert, Rognlie, and Straub (2020) assume in their benchmark model that all $g$ households share the same degree of inattention to aggregate conditions, parameterized by a common sticky expectations parameter $\theta$. This $\theta$ governs the probability that a household does not update its beliefs about the macroeconomy in a given period. While the model allows for rich heterogeneity in income, wealth, and marginal propensities to consume (MPCs), the expectation-updating process is homogeneous across households. This simplifies the analysis of monetary policy transmission but abstracts from empirically observed differences in how households perceive and react to aggregate shocks. 
 
-
-Then, my research question would be: does heterogeneity in expectation updating amplify or dampen the inequality effects of monetary policy?
+In reality, expectations vary dramatically across households. Empirical work shows that less informed agents—including households in survey data—update expectations less frequently and less accurately than professionals (Coibion and Gorodnichenko, 2015). Further evidence (e.g., D’Acunto et al., 2019) links this inattention to socioeconomic characteristics such as low income and education. Then, my research question would be: does heterogeneity in expectation updating amplify or dampen the inequality effects of monetary policy?
 
 ---
 
@@ -25,7 +24,6 @@ This project hope to introduces heterogeneous inattention into a HANK model: eac
 ---
 
 ## 3. Model Framework
-
 The model builds on a tractable HANK structure with:
 - Heterogeneous households (by wealth or discount factor),
 - Two-asset framework (liquid and illiquid),
@@ -56,10 +54,6 @@ The extension introduces household-type-specific inattention:
 
 - Coibion, O., & Gorodnichenko, Y. (2015). *Information Rigidity and the Expectations Formation Process: A Simple Framework and New Facts*. American Economic Review, 105(8), 2644–2678. https://doi.org/10.1257/aer.20110306
 
-- D’Acunto, F., Malmendier, U., Ospina, J., & Weber, M. (2021). *Exposure to Inflation in Boom and Bust: How Households Interpret Price Signals*. NBER Working Paper No. 28194. https://doi.org/10.3386/w28194
-
-
-
-
+- D’Acunto, F., Malmendier, U., Ospina, J., & Weber, M. (2019). *Exposure to Inflation in Boom and Bust: How Households Interpret Price Signals*. NBER Working Paper No. 28194. [https://doi.org/10.3386/w28194](https://www.nber.org/system/files/working_papers/w26237/w26237.pdf)
 
 ---
