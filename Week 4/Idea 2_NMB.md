@@ -1,5 +1,6 @@
 
-#Liquidity-Driven Timing Gaps in Mortgage Prepayment: A Distributional Channel of Monetary Policy
+# Liquidity-Driven Timing Gaps in Mortgage Prepayment: A Distributional Channel of Monetary Policy
+
 ### **Motivation** 
 Monetary policy affects households asymmetrically. While models like McKay & Wieland (2021) and Berger et al. (2021) emphasize how durable purchases and mortgage prepayments exhibit intertemporal substitution in response to rate changes, they typically treat all households as equally responsive once rate incentives emerge. However, in practice, prepayment and refinancing depend not only on interest rate changes, but also on whether a household has the liquid resources to act on those incentives. This opens a path-dependent channel: a household’s ability to benefit from monetary stimulus depends on its asset position at the time of the shock.
 
