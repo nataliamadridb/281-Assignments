@@ -103,7 +103,6 @@ This model captures how firm-level climate vulnerability affects the transmissio
 ## 6. Possible mechanisms
 - Juan's question: What am I learning from the underlying functioning of the economy by looking at that statistic?
 
-I may want to understand which is the mechanism which is driving my result.
 **Mechanism 1: Financial Constraints + Risk Exposure**
 Climate-exposed firms may face greater credit constraints or higher risk premiums in normal times (due to uncertain future losses or reduced collateral value).
 When monetary policy eases (lower rates, looser credit), these constraints relax more strongly for vulnerable firms.
