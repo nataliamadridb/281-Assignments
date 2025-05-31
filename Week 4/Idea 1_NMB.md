@@ -32,7 +32,7 @@ The model builds on a tractable HANK structure with:
 The extension introduces household-type-specific inattention:
 $$\theta_g = \text{inattention rate for group } g \in \{\text{low, middle, high income}\}$$
 
-**Calibration**: Match \( \theta_g \) to expectations data from the Michigan Survey of Consumers or the New York Fed Survey of Consumer Expectations (SCE).
+**Calibration**: Match $\theta_g$ to expectations data from the Michigan Survey of Consumers or the New York Fed Survey of Consumer Expectations (SCE).
 
 ---
 
