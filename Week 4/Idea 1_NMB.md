@@ -33,14 +33,6 @@ $$\theta_g = \text{inattention rate for group } g \in \{\text{low, middle, high 
 **Calibration**: Match $\theta_g$ to expectations data from the Michigan Survey of Consumers or the New York Fed Survey of Consumer Expectations (SCE).
 
 ---
-
-## 4. Empirical Strategy
-**Validation targets**:
-- Estimate group-level $\theta_g$ from expectation survey data (e.g., update frequency, forecast errors).
-- Use consumption panel data (CEX, Nielsen, Chetty et al.) to trace heterogeneous consumption responses after monetary shocks.
-- Estimate local projection IRFs by income or education group using monetary shocks (e.g., Romer & Romer, M-A-R shocks).
-
----
 ## Literature:
 - Auclert, Adrien, Rognlie, Matthew, and Straub, Ludwig. (2020). Micro Jumps, Macro Humps: Monetary Policy and Business Cycles in an Estimated HANK Model. NBER Working Paper No. 26647. 
 - Auclert, A. (2019). Monetary Policy and the Redistribution Channel. American Economic Review, 109(6), 2333–2367. 
