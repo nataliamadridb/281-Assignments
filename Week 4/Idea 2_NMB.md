@@ -26,7 +26,6 @@ This introduces a form of state-dependent heterogeneity: whether a household can
 - Extends the **Berger et al. (2021)** model of mortgage prepayment by allowing refinancing probabilities to vary endogenously with liquid wealth.
 - Introduces a liquidity-based prepayment hazard, adding heterogeneity in responsiveness not just from fixed adjustment costs or inattention, but from balance sheet position.
 - Contributes to the literature on distributional monetary policy, linking monetary transmission to household asset portfolios.
-- Connects to heterogeneous inattention models (Coibion & Gorodnichenko, 2015) by framing liquidity as a determinant of attention/action thresholds.
 
 ---
 
@@ -49,5 +48,4 @@ This introduces a form of state-dependent heterogeneity: whether a household can
 
 - Auclert, A., Bardóczy, Z., Rognlie, M., & Straub, L. (2021). *Using the Sequence-Space Jacobian to Solve and Estimate Heterogeneous-Agent Models*. Econometrica, 89(5), 2375–2408. 
 - Berger, D., Milbradt, K., Tourre, F., & Vavra, J. (2021). *Mortgage Prepayment and Path-Dependent Effects of Monetary Policy*. American Economic Review, 111(9), 2829–2878. 
-- Coibion, O., & Gorodnichenko, Y. (2015). *Information Rigidity and the Expectations Formation Process: A Simple Framework and New Facts*. American Economic Review, 105(8), 2644–2678. 
 - McKay, A., & Wieland, J. (2021). *Lumpy Durable Consumption Demand and the Limited Ammunition of Monetary Policy*. Econometrica, 89(3), 1115–1157. 
