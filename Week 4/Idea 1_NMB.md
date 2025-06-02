@@ -7,7 +7,7 @@
 
 In modern macroeconomic models, particularly Heterogeneous Agent New Keynesian (HANK) models, the transmission of monetary policy is shaped by differences in wealth, income, and marginal propensities to consume (MPCs) across households (Auclert, 2019; Kaplan et al., 2018). However, these models often treat information frictions homogeneously. For example, Auclert, Rognlie, and Straub (2020) assume in their benchmark model that all $g$ households share the same degree of inattention to aggregate conditions, parameterized by a common sticky expectations parameter $\theta$. This $\theta$ governs the probability that a household does not update its beliefs about the macroeconomy in a given period. While the model allows for rich heterogeneity in income, wealth, and marginal propensities to consume (MPCs), the expectation-updating process is homogeneous across households. This simplifies the analysis of monetary policy transmission but abstracts from empirically observed differences in how households perceive and react to aggregate shocks. 
 
-In reality, expectations vary dramatically across households. Empirical work shows that households—who tend to be less informed than professional forecasters—update their expectations less frequently and less accurately (Coibion and Gorodnichenko, 2015). Further evidence (D’Acunto et al., 2019) links this inattention to socioeconomic characteristics such as low income and education. Then, my research question would be: **does heterogeneity in expectation updating amplify or dampen the inequality effects of monetary policy?**
+In reality, expectations vary dramatically across households. Empirical work shows that households—who tend to be less informed than professional forecasters—update their expectations less frequently and less accurately (Coibion and Gorodnichenko, 2015). Further evidence (D’Acunto et al., 2019) links this inattention to socioeconomic characteristics such as low income and education. Then, my research question would be: **does heterogeneity in expectation updating across households amplify or mitigate the distributional effects of monetary policy?**
 
 ---
 
@@ -20,6 +20,30 @@ This project hope to introduces heterogeneous inattention into a HANK model: eac
 - Inattentive households (typically poorer, high-MPC) delay their response due to outdated beliefs.
 - This creates timing gaps: even if income gains eventually reach all households, the early consumption and asset gains accrue to the informed.
 ---
+
+## 3. Empirical strategy
+I plan to estimate the following regression with panel data to test whether inattention to aggregate conditions influences the consumption response to monetary policy shocks:
+\[
+\Delta C_{it} = \gamma_0 + \gamma_1 \text{MPShock}_t + \gamma_2 (\theta_i \times \text{MPShock}_t) + \mathbf{X}_{it}'\Gamma + \varepsilon_{it}
+\]
+
+Where:
+- $\Delta C_{it}$ is the change in household \(i\)'s consumption at time \(t\),
+- $\text{MPShock}_t$ is a monetary policy shock at time \(t\),
+- \(\theta_i\) is a proxy for inattention (e.g., frequency of expectation updates from survey data),
+- \(\mathbf{X}_{it}\) is a vector of household-level controls (income, education, liquid wealth, etc.).
+- 
+### **Data Sources**
+- **Consumer Expenditure Survey (CEX)** or **Panel Study of Income Dynamics (PSID)**
+- Monetary policy shocks:
+  - **Romer & Romer (2004) narrative shocks**
+  - **High-frequency monetary policy shocks** (e.g., Gürkaynak et al.)
+  - **FRB-SF Monetary Policy Surprise (MPS) dataset**
+
+
+### **Hypothesis**
+Households with higher inattention (\(\theta_i\)) exhibit a weaker or more delayed consumption response to monetary shocks. That is:
+- \(\gamma_2 < 0\): Inattention dampens monetary policy transmission.
 
 ## 3. Model Framework
 The model builds on a tractable HANK structure with:
