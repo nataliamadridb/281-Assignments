@@ -35,7 +35,7 @@ This introduces a form of state-dependent heterogeneity: whether a household can
 - Use household-level mortgage servicing data (e.g., CRISM or McDash) matched with credit bureau data.
 - Construct a measure of household liquidity (e.g., checking/savings balances or inferred from debt repayment behavior).
 - Estimate heterogeneous prepayment hazards as a function of rate gap × liquidity bin.
-- Run local projections: does regional liquidity predict differential responsiveness of mortgage prepayment and consumption to national monetary shocks?
+- Run local projections focusing on: does regional liquidity predict differential responsiveness of mortgage prepayment and consumption to national monetary shocks?
 
 #### 2. Theoretical Model
 - Start with McKay & Wieland (2021) framework: heterogeneous-agent NK model with lumpy durable adjustment and refinancing frictions.
