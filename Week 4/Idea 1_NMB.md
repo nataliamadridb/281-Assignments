@@ -13,7 +13,7 @@ In reality, expectations vary dramatically across households. Empirical work sho
 
 ## 2. Key Hypothesis and Mechanism
 
-This project hope to introduces heterogeneous inattention into a HANK model: each household type \( g \) has its own expectation-updating parameter $\theta_g$., varying by income, wealth, or education.
+My idea is to introduces heterogeneous inattention into a HANK model: each household type \( g \) has its own expectation-updating parameter $\theta_g$., varying by income, wealth, or education.
 
 **Mechanism**:
 - After an expansionary monetary policy shock, attentive households (typically wealthier) adjust consumption and portfolios quickly.
@@ -33,12 +33,8 @@ Where:
 - $\mathbf{X}_{it}$ is a vector of household-level controls (income, education, liquid wealth, etc.).
   
 ### **Data Sources**
-- **Consumer Expenditure Survey (CEX)** or **Panel Study of Income Dynamics (PSID)**
-- Monetary policy shocks:
-  - **Romer & Romer (2004) narrative shocks**
-  - **High-frequency monetary policy shocks** (e.g., Gürkaynak et al.)
-  - **FRB-SF Monetary Policy Surprise (MPS) dataset**
-
+- Consumer Expenditure Survey (CEX) or Panel Study of Income Dynamics (PSID)
+- Monetary policy shocks (Romer & Romer (2004) narrative shocks, Hhigh-frequency monetary policy shocks)
 
 ### **Hypothesis**
 Households with higher inattention (\(\theta_i\)) exhibit a weaker or more delayed consumption response to monetary shocks. That is:
