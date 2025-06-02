@@ -24,9 +24,7 @@ My idea is to introduces heterogeneous inattention into a HANK model: each house
 ## 3. Empirical strategy
 I plan to estimate the following regression with panel data to test whether inattention to aggregate conditions influences the consumption response to monetary policy shocks:
 
-<p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=\Delta C_{it} = \gamma_0 %2B \gamma_1 \text{MPShock}_t %2B \gamma_2 (\theta_i \times \text{MPShock}_t) %2B \mathbf{X}_{it}'\Gamma %2B \varepsilon_{it}">
-</p>
+ΔC_it = γ₀ + γ₁ · MPShock_t + γ₂ · (θᵢ × MPShock_t) + X_it' · Γ + ε_it
 
 Where:
 - $\Delta C_{it}$ is the change in household \(i\)'s consumption at time \(t\),
