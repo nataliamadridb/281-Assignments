@@ -49,8 +49,6 @@ The model builds on a tractable HANK structure with:
 The extension introduces household-type-specific inattention:
 $$\theta_g = \text{inattention rate for group } g \in \{\text{low, middle, high income}\}$$
 
-**Calibration**: Match $\theta_g$ to expectations data from the Michigan Survey of Consumers or the New York Fed Survey of Consumer Expectations (SCE).
-
 ---
 ## Literature:
 - Auclert, Adrien, Rognlie, Matthew, and Straub, Ludwig. (2020). Micro Jumps, Macro Humps: Monetary Policy and Business Cycles in an Estimated HANK Model. NBER Working Paper No. 26647. 
