@@ -36,10 +36,6 @@ Where:
 - Consumer Expenditure Survey (CEX) or Panel Study of Income Dynamics (PSID)
 - Monetary policy shocks (Romer & Romer (2004) narrative shocks, Hhigh-frequency monetary policy shocks)
 
-### **Hypothesis**
-Households with higher inattention (\(\theta_i\)) exhibit a weaker or more delayed consumption response to monetary shocks. That is:
-- \(\gamma_2 < 0\): Inattention dampens monetary policy transmission.
-
 ## 3. Model Framework
 The model builds on a tractable HANK structure with:
 - Heterogeneous households (by wealth or discount factor),
