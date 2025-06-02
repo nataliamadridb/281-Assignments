@@ -23,16 +23,15 @@ This project hope to introduces heterogeneous inattention into a HANK model: eac
 
 ## 3. Empirical strategy
 I plan to estimate the following regression with panel data to test whether inattention to aggregate conditions influences the consumption response to monetary policy shocks:
-\[
-\Delta C_{it} = \gamma_0 + \gamma_1 \text{MPShock}_t + \gamma_2 (\theta_i \times \text{MPShock}_t) + \mathbf{X}_{it}'\Gamma + \varepsilon_{it}
-\]
+
+$$\Delta C_{it} = \gamma_0 + \gamma_1 \text{MPShock}_t + \gamma_2 (\theta_i \times \text{MPShock}_t) + \mathbf{X}_{it}'\Gamma + \varepsilon_{it}$$
 
 Where:
 - $\Delta C_{it}$ is the change in household \(i\)'s consumption at time \(t\),
 - $\text{MPShock}_t$ is a monetary policy shock at time \(t\),
-- \(\theta_i\) is a proxy for inattention (e.g., frequency of expectation updates from survey data),
-- \(\mathbf{X}_{it}\) is a vector of household-level controls (income, education, liquid wealth, etc.).
-- 
+- $\theta_i$ is a proxy for inattention (e.g., frequency of expectation updates from survey data),
+- $\mathbf{X}_{it}$ is a vector of household-level controls (income, education, liquid wealth, etc.).
+  
 ### **Data Sources**
 - **Consumer Expenditure Survey (CEX)** or **Panel Study of Income Dynamics (PSID)**
 - Monetary policy shocks:
