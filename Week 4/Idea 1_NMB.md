@@ -54,3 +54,10 @@ $$\theta_g = \text{inattention rate for group } g \in \{\text{low, middle, high 
 - D’Acunto, F., Malmendier, U., Ospina, J., & Weber, M. (2019). *Exposure to Inflation in Boom and Bust: How Households Interpret Price Signals*. NBER Working Paper No. 28194. 
 
 ---
+
+
+## Juan's thoughts.
+
+Hi Natalia,
+
+I could not really follow where you are going to get \theta_i in a way that you can link to individual level consumption.
