@@ -60,4 +60,4 @@ $$\theta_g = \text{inattention rate for group } g \in \{\text{low, middle, high 
 
 Hi Natalia,
 
-I could not really follow where you are going to get \theta_i in a way that you can link to individual level consumption.
+I could not really follow where you are going to get \theta_i in a way that you can link to individual level consumption. It would be good to know more about the mechanism you have in mind.
