@@ -48,4 +48,8 @@ This introduces a form of state-dependent heterogeneity: whether a household can
 
 - Auclert, A., Bardóczy, Z., Rognlie, M., & Straub, L. (2021). *Using the Sequence-Space Jacobian to Solve and Estimate Heterogeneous-Agent Models*. Econometrica, 89(5), 2375–2408. 
 - Berger, D., Milbradt, K., Tourre, F., & Vavra, J. (2021). *Mortgage Prepayment and Path-Dependent Effects of Monetary Policy*. American Economic Review, 111(9), 2829–2878. 
-- McKay, A., & Wieland, J. (2021). *Lumpy Durable Consumption Demand and the Limited Ammunition of Monetary Policy*. Econometrica, 89(3), 1115–1157. 
+- McKay, A., & Wieland, J. (2021). *Lumpy Durable Consumption Demand and the Limited Ammunition of Monetary Policy*. Econometrica, 89(3), 1115–1157.
+
+## Juan's thoughts.
+
+Interesting. Here again I'm a bit concern about the implementability of this idea. You would need credit bureau data (let's say through the CCP, and link that would mortgage refinancing information? Or is the credit bureau data enough?
